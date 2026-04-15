@@ -24,22 +24,18 @@ const SERVICE_ICONS: Record<string, React.ReactNode> = {
   'Recibo de paquetes':  <Package className="w-4 h-4" />,
 };
 
-const IconNavBtn = ({ onClick, color, icon: Icon, label }: { 
+const IconNavBtn = ({ onClick, src, label }: { 
   onClick: () => void; 
-  color: string; 
-  icon: any; 
+  src: string; 
   label: string 
 }) => (
   <motion.button
     whileTap={{ scale: 0.9 }}
     onClick={onClick}
-    className="flex flex-col items-center gap-2"
+    className="flex flex-col items-center gap-1.5"
   >
-    <div 
-      className="w-12 h-12 rounded-full flex items-center justify-center text-white shadow-md active:brightness-90 transition-all"
-      style={{ background: color }}
-    >
-      <Icon className="w-6 h-6" />
+    <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-[var(--c-border)] shadow-sm overflow-hidden active:brightness-95 transition-all">
+      <Image src={src} alt={label} width={48} height={48} className="object-cover" />
     </div>
     <span className="text-[9px] font-black uppercase tracking-widest text-[var(--c-text-subtle)]">{label}</span>
   </motion.button>
@@ -95,12 +91,12 @@ export default function StoreDetail({ store, onClose }: StoreDetailProps) {
               </div>
             </div>
 
-            {/* Compact Row Navigation */}
+            {/* Premium Icon Row */}
             <div className="flex items-center gap-4 flex-shrink-0">
-              <IconNavBtn onClick={() => openGoogleMaps(store.lat, store.lng, store.name)} color="#4285F4" icon={Navigation} label="Google" />
-              <IconNavBtn onClick={() => openWaze(store.lat, store.lng)} color="#33CCFF" icon={Zap} label="Waze" />
+              <IconNavBtn onClick={() => openGoogleMaps(store.lat, store.lng, store.name)} src="/google-map-icon.webp" label="Google" />
+              <IconNavBtn onClick={() => openWaze(store.lat, store.lng)} src="/waze-icon.webp" label="Waze" />
               {showAppleMaps && (
-                <IconNavBtn onClick={() => openAppleMaps(store.lat, store.lng, store.name)} color="#000000" icon={Navigation} label="Apple" />
+                <IconNavBtn onClick={() => openAppleMaps(store.lat, store.lng, store.name)} src="/apple.png" label="Apple" />
               )}
             </div>
           </div>
