@@ -1,0 +1,3429 @@
+[
+  {
+    "id": "oxxo-001",
+    "name": "OXXO Reforma",
+    "address": "Paseo de la Reforma 143",
+    "neighborhood": "Cuauhtémoc",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06600",
+    "lat": 19.4327,
+    "lng": -99.144,
+    "phone": "55 5512-3401",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-002",
+    "name": "OXXO Polanco",
+    "address": "Presidente Masaryk 40",
+    "neighborhood": "Polanco",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "11560",
+    "lat": 19.4347,
+    "lng": -99.1895,
+    "phone": "55 5281-4122",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "07:00 - 23:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-003",
+    "name": "OXXO Condesa",
+    "address": "Ámsterdam 120",
+    "neighborhood": "Condesa",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06140",
+    "lat": 19.4116,
+    "lng": -99.1728,
+    "phone": "55 5553-8874",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 23:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-004",
+    "name": "OXXO Roma Norte",
+    "address": "Álvaro Obregón 154",
+    "neighborhood": "Roma Norte",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06700",
+    "lat": 19.4196,
+    "lng": -99.161,
+    "phone": "55 5264-9037",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero",
+      "Impresiones"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-005",
+    "name": "OXXO Coyoacán",
+    "address": "Francisco Sosa 218",
+    "neighborhood": "Coyoacán",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "04000",
+    "lat": 19.3484,
+    "lng": -99.1625,
+    "phone": "55 5658-2210",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "07:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-006",
+    "name": "OXXO Pedregal",
+    "address": "Insurgentes Sur 3579",
+    "neighborhood": "Pedregal de San Ángel",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "04500",
+    "lat": 19.3251,
+    "lng": -99.1898,
+    "phone": "55 5652-7730",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-007",
+    "name": "OXXO Santa Fe",
+    "address": "Prolongación Reforma 1236",
+    "neighborhood": "Santa Fe",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "05348",
+    "lat": 19.3618,
+    "lng": -99.2614,
+    "phone": "55 2591-4488",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-008",
+    "name": "OXXO Tlatelolco",
+    "address": "Manuel González 102",
+    "neighborhood": "Tlatelolco",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06900",
+    "lat": 19.4529,
+    "lng": -99.1392,
+    "phone": "55 5583-1156",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-009",
+    "name": "OXXO Doctores",
+    "address": "Dr. Río de la Loza 280",
+    "neighborhood": "Doctores",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06720",
+    "lat": 19.4207,
+    "lng": -99.1443,
+    "phone": "55 5761-3382",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "06:00 - 23:30",
+      "sunday": "07:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-010",
+    "name": "OXXO Iztapalapa",
+    "address": "Av. Ermita Iztapalapa 890",
+    "neighborhood": "Iztapalapa",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "09810",
+    "lat": 19.3681,
+    "lng": -99.0567,
+    "phone": "55 5694-8821",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-011",
+    "name": "OXXO Naucalpan",
+    "address": "Av. Lomas Verdes 14",
+    "neighborhood": "Lomas Verdes",
+    "city": "Naucalpan",
+    "state": "Estado de México",
+    "zipCode": "53120",
+    "lat": 19.4789,
+    "lng": -99.2326,
+    "phone": "55 5360-6644",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-012",
+    "name": "OXXO Ecatepec",
+    "address": "Av. Central 89",
+    "neighborhood": "Las Américas",
+    "city": "Ecatepec",
+    "state": "Estado de México",
+    "zipCode": "55076",
+    "lat": 19.5983,
+    "lng": -98.9908,
+    "phone": "55 5787-3300",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-013",
+    "name": "OXXO Tlalpan",
+    "address": "Calzada de Tlalpan 1541",
+    "neighborhood": "Tlalpan",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "14000",
+    "lat": 19.3122,
+    "lng": -99.1478,
+    "phone": "55 5573-2245",
+    "hours": {
+      "monday": "06:00 - 22:00",
+      "tuesday": "06:00 - 22:00",
+      "wednesday": "06:00 - 22:00",
+      "thursday": "06:00 - 22:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-014",
+    "name": "OXXO Xochimilco",
+    "address": "Pino 24",
+    "neighborhood": "Centro Xochimilco",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "16000",
+    "lat": 19.2571,
+    "lng": -99.1033,
+    "phone": "55 5676-4418",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-015",
+    "name": "OXXO Garibaldi",
+    "address": "Eje Central Lázaro Cárdenas 48",
+    "neighborhood": "Guerrero",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06300",
+    "lat": 19.4453,
+    "lng": -99.1411,
+    "phone": "55 5529-7763",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-016",
+    "name": "OXXO Tepito",
+    "address": "Toltecas 23",
+    "neighborhood": "Tepito",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06820",
+    "lat": 19.4505,
+    "lng": -99.129,
+    "phone": "55 5702-1188",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-017",
+    "name": "OXXO Merced",
+    "address": "Calle Uruguay 45",
+    "neighborhood": "Merced",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06200",
+    "lat": 19.4256,
+    "lng": -99.1245,
+    "phone": "55 5522-4411",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "06:00 - 23:30",
+      "sunday": "07:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-018",
+    "name": "OXXO Zócalo",
+    "address": "Av. Madero 60",
+    "neighborhood": "Centro Histórico",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06000",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "phone": "55 5512-0011",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero",
+      "Impresiones"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-019",
+    "name": "OXXO Tacubaya",
+    "address": "Av. Revolución 1340",
+    "neighborhood": "Tacubaya",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "11870",
+    "lat": 19.4023,
+    "lng": -99.1878,
+    "phone": "55 5271-3312",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-020",
+    "name": "OXXO Santa María la Ribera",
+    "address": "Insurgentes Norte 890",
+    "neighborhood": "Santa María la Ribera",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06400",
+    "lat": 19.4475,
+    "lng": -99.1556,
+    "phone": "55 5547-8890",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-021",
+    "name": "OXXO Iztacalco",
+    "address": "Canal de San Juan 120",
+    "neighborhood": "Iztacalco",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "08810",
+    "lat": 19.3917,
+    "lng": -99.0931,
+    "phone": "55 5650-2233",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-022",
+    "name": "OXXO Cuajimalpa",
+    "address": "Av. México 68",
+    "neighborhood": "Centro Cuajimalpa",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "05000",
+    "lat": 19.3601,
+    "lng": -99.2981,
+    "phone": "55 5812-4455",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-023",
+    "name": "OXXO Lindavista",
+    "address": "Av. Instituto Politécnico 2508",
+    "neighborhood": "Lindavista",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "07300",
+    "lat": 19.4897,
+    "lng": -99.1354,
+    "phone": "55 5586-7721",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-024",
+    "name": "OXXO Del Valle",
+    "address": "Insurgentes Sur 680",
+    "neighborhood": "Del Valle",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "03100",
+    "lat": 19.394,
+    "lng": -99.161,
+    "phone": "55 5559-3341",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-025",
+    "name": "OXXO Tláhuac",
+    "address": "Av. Tláhuac 6200",
+    "neighborhood": "Tláhuac",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "13000",
+    "lat": 19.295,
+    "lng": -99.0243,
+    "phone": "55 5842-1109",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-026",
+    "name": "OXXO Magdalena Contreras",
+    "address": "Camino a Santa Teresa 890",
+    "neighborhood": "La Magdalena Contreras",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "10200",
+    "lat": 19.3153,
+    "lng": -99.2305,
+    "phone": "55 5652-8870",
+    "hours": {
+      "monday": "06:00 - 22:00",
+      "tuesday": "06:00 - 22:00",
+      "wednesday": "06:00 - 22:00",
+      "thursday": "06:00 - 22:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-027",
+    "name": "OXXO Lomas Chapultepec",
+    "address": "Moliere 530",
+    "neighborhood": "Lomas de Chapultepec",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "11000",
+    "lat": 19.4284,
+    "lng": -99.2089,
+    "phone": "55 5202-6644",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-028",
+    "name": "OXXO Mixcoac",
+    "address": "Insurgentes Sur 2300",
+    "neighborhood": "Mixcoac",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "01460",
+    "lat": 19.3762,
+    "lng": -99.1801,
+    "phone": "55 5611-4430",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-029",
+    "name": "OXXO Portales",
+    "address": "Eje 5 Sur 1120",
+    "neighborhood": "Portales",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "03300",
+    "lat": 19.382,
+    "lng": -99.1453,
+    "phone": "55 5539-7712",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-030",
+    "name": "OXXO Peralvillo",
+    "address": "Circunvalación 89",
+    "neighborhood": "Peralvillo",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06250",
+    "lat": 19.4461,
+    "lng": -99.135,
+    "phone": "55 5526-3381",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-031",
+    "name": "OXXO Narvarte",
+    "address": "Av. Insurgentes Sur 890",
+    "neighborhood": "Narvarte",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "03020",
+    "lat": 19.4025,
+    "lng": -99.1541,
+    "phone": "55 5543-2209",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-032",
+    "name": "OXXO Buenavista",
+    "address": "Av. Insurgentes Norte 234",
+    "neighborhood": "Buenavista",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06350",
+    "lat": 19.4489,
+    "lng": -99.1522,
+    "phone": "55 5547-0021",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-033",
+    "name": "OXXO Escandón",
+    "address": "Juan Escutia 45",
+    "neighborhood": "Escandón",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "11800",
+    "lat": 19.4069,
+    "lng": -99.1853,
+    "phone": "55 5271-8843",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-034",
+    "name": "OXXO Gustavo A. Madero",
+    "address": "Av. Politécnico Nacional 3200",
+    "neighborhood": "Gustavo A. Madero",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "07780",
+    "lat": 19.5012,
+    "lng": -99.1089,
+    "phone": "55 5587-4456",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-035",
+    "name": "OXXO Azcapotzalco",
+    "address": "Av. de los Maestros 115",
+    "neighborhood": "Azcapotzalco",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "02000",
+    "lat": 19.4867,
+    "lng": -99.181,
+    "phone": "55 5352-6610",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-036",
+    "name": "OXXO San Ángel",
+    "address": "Insurgentes Sur 3000",
+    "neighborhood": "San Ángel",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "01000",
+    "lat": 19.3456,
+    "lng": -99.1901,
+    "phone": "55 5550-3378",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-037",
+    "name": "OXXO Venustiano Carranza",
+    "address": "Fray Servando Teresa de Mier 60",
+    "neighborhood": "Venustiano Carranza",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "15000",
+    "lat": 19.4201,
+    "lng": -99.1181,
+    "phone": "55 5764-2290",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-038",
+    "name": "OXXO Pantitlán",
+    "address": "Zaragoza 890",
+    "neighborhood": "Pantitlán",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "08100",
+    "lat": 19.4102,
+    "lng": -99.0765,
+    "phone": "55 5700-1133",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-039",
+    "name": "OXXO Obrera",
+    "address": "Dr. Pascua 120",
+    "neighborhood": "Obrera",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "06800",
+    "lat": 19.4178,
+    "lng": -99.1423,
+    "phone": "55 5761-8823",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-040",
+    "name": "OXXO Tepepan",
+    "address": "Av. División del Norte 5640",
+    "neighborhood": "Tepepan",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "16020",
+    "lat": 19.2991,
+    "lng": -99.1234,
+    "phone": "55 5676-0045",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-041",
+    "name": "OXXO Macroplaza",
+    "address": "Av. Constitución 300",
+    "neighborhood": "Centro",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64000",
+    "lat": 25.6686,
+    "lng": -100.3094,
+    "phone": "81 8342-1100",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-042",
+    "name": "OXXO San Pedro",
+    "address": "Av. Vasconcelos 215",
+    "neighborhood": "Del Valle",
+    "city": "San Pedro Garza García",
+    "state": "Nuevo León",
+    "zipCode": "66220",
+    "lat": 25.6569,
+    "lng": -100.4028,
+    "phone": "81 8378-4422",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-043",
+    "name": "OXXO Cumbres",
+    "address": "Av. Cumbres 1er Sector 400",
+    "neighborhood": "Cumbres",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64610",
+    "lat": 25.7512,
+    "lng": -100.3801,
+    "phone": "81 8365-7733",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-044",
+    "name": "OXXO Guadalupe",
+    "address": "Av. Pablo González 890",
+    "neighborhood": "Las Puentes",
+    "city": "Guadalupe",
+    "state": "Nuevo León",
+    "zipCode": "67110",
+    "lat": 25.6776,
+    "lng": -100.2584,
+    "phone": "81 8886-2241",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-045",
+    "name": "OXXO Apodaca",
+    "address": "Blvd. Apodaca 1200",
+    "neighborhood": "Las Américas",
+    "city": "Apodaca",
+    "state": "Nuevo León",
+    "zipCode": "66600",
+    "lat": 25.7787,
+    "lng": -100.1879,
+    "phone": "81 8386-5510",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-046",
+    "name": "OXXO Santa Catarina",
+    "address": "Av. Industriales 540",
+    "neighborhood": "Industrial",
+    "city": "Santa Catarina",
+    "state": "Nuevo León",
+    "zipCode": "66350",
+    "lat": 25.6734,
+    "lng": -100.4575,
+    "phone": "81 8336-8802",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-047",
+    "name": "OXXO Escobedo",
+    "address": "Av. Benito Juárez 750",
+    "neighborhood": "Centro",
+    "city": "General Escobedo",
+    "state": "Nuevo León",
+    "zipCode": "66050",
+    "lat": 25.7942,
+    "lng": -100.3198,
+    "phone": "81 8352-6677",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-048",
+    "name": "OXXO Barrio Antiguo",
+    "address": "Padre Mier 123",
+    "neighborhood": "Barrio Antiguo",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64010",
+    "lat": 25.6671,
+    "lng": -100.3089,
+    "phone": "81 8344-5590",
+    "hours": {
+      "monday": "06:00 - 02:00",
+      "tuesday": "06:00 - 02:00",
+      "wednesday": "06:00 - 02:00",
+      "thursday": "06:00 - 02:00",
+      "friday": "06:00 - 04:00",
+      "saturday": "08:00 - 04:00",
+      "sunday": "08:00 - 02:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-049",
+    "name": "OXXO San Nicolás",
+    "address": "Av. Universidad 1234",
+    "neighborhood": "Centro",
+    "city": "San Nicolás de los Garza",
+    "state": "Nuevo León",
+    "zipCode": "66450",
+    "lat": 25.7284,
+    "lng": -100.3011,
+    "phone": "81 8376-2231",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-050",
+    "name": "OXXO Obispado",
+    "address": "Av. Obispado 200",
+    "neighborhood": "Obispado",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64060",
+    "lat": 25.6755,
+    "lng": -100.334,
+    "phone": "81 8347-1129",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-051",
+    "name": "OXXO Mitras Norte",
+    "address": "Av. Mitras 890",
+    "neighborhood": "Mitras Norte",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64320",
+    "lat": 25.7021,
+    "lng": -100.3487,
+    "phone": "81 8348-9900",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-052",
+    "name": "OXXO Tecnológico",
+    "address": "Av. del Tecnológico 120",
+    "neighborhood": "Tecnológico",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64700",
+    "lat": 25.6514,
+    "lng": -100.2872,
+    "phone": "81 8359-4412",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-053",
+    "name": "OXXO Anahuac",
+    "address": "Av. Ruiz Cortines 450",
+    "neighborhood": "Anahuac",
+    "city": "San Nicolás de los Garza",
+    "state": "Nuevo León",
+    "zipCode": "66450",
+    "lat": 25.7123,
+    "lng": -100.3267,
+    "phone": "81 8376-8800",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-054",
+    "name": "OXXO Independencia",
+    "address": "Av. Constitución 789",
+    "neighborhood": "Independencia",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64720",
+    "lat": 25.6562,
+    "lng": -100.3056,
+    "phone": "81 8330-1156",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-055",
+    "name": "OXXO Mitras Centro",
+    "address": "Av. Venustiano Carranza 1200",
+    "neighborhood": "Mitras Centro",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64460",
+    "lat": 25.6978,
+    "lng": -100.3456,
+    "phone": "81 8348-3322",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-056",
+    "name": "OXXO Monterrey Sur",
+    "address": "Av. Félix U. Gómez 890",
+    "neighborhood": "Industrial",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64010",
+    "lat": 25.6189,
+    "lng": -100.3067,
+    "phone": "81 8330-4489",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-057",
+    "name": "OXXO San Jerónimo",
+    "address": "Av. San Jerónimo 456",
+    "neighborhood": "San Jerónimo",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64630",
+    "lat": 25.6254,
+    "lng": -100.3521,
+    "phone": "81 8378-6603",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-058",
+    "name": "OXXO Las Quintas",
+    "address": "Av. Acueducto 789",
+    "neighborhood": "Las Quintas",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64780",
+    "lat": 25.6612,
+    "lng": -100.4201,
+    "phone": "81 8378-9931",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-059",
+    "name": "OXXO García",
+    "address": "Av. Benito Juárez 340",
+    "neighborhood": "Centro",
+    "city": "García",
+    "state": "Nuevo León",
+    "zipCode": "66000",
+    "lat": 25.8127,
+    "lng": -100.5879,
+    "phone": "81 8298-1100",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-060",
+    "name": "OXXO Pesquería",
+    "address": "Av. Industrias 456",
+    "neighborhood": "Centro",
+    "city": "Pesquería",
+    "state": "Nuevo León",
+    "zipCode": "65650",
+    "lat": 25.7543,
+    "lng": -100.0543,
+    "phone": "81 8290-4421",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-061",
+    "name": "OXXO Santiago NL",
+    "address": "Hidalgo 23",
+    "neighborhood": "Centro",
+    "city": "Santiago",
+    "state": "Nuevo León",
+    "zipCode": "67300",
+    "lat": 25.4289,
+    "lng": -100.1521,
+    "phone": "81 8288-2234",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-062",
+    "name": "OXXO Cadereyta",
+    "address": "Av. Allende 450",
+    "neighborhood": "Centro",
+    "city": "Cadereyta Jiménez",
+    "state": "Nuevo León",
+    "zipCode": "67480",
+    "lat": 25.594,
+    "lng": -99.9877,
+    "phone": "81 8289-3310",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-063",
+    "name": "OXXO San Pedro 2",
+    "address": "Av. Vasconcelos 890",
+    "neighborhood": "Residencial San Agustín",
+    "city": "San Pedro Garza García",
+    "state": "Nuevo León",
+    "zipCode": "66260",
+    "lat": 25.6489,
+    "lng": -100.4123,
+    "phone": "81 8378-5541",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-064",
+    "name": "OXXO Cumbres 2",
+    "address": "Av. Cumbres 3er Sector 120",
+    "neighborhood": "Cumbres",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64610",
+    "lat": 25.7698,
+    "lng": -100.3721,
+    "phone": "81 8365-3381",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-065",
+    "name": "OXXO Guadalupe 2",
+    "address": "Av. Benito Juárez 456",
+    "neighborhood": "Centro",
+    "city": "Guadalupe",
+    "state": "Nuevo León",
+    "zipCode": "67100",
+    "lat": 25.6912,
+    "lng": -100.2312,
+    "phone": "81 8886-7712",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-066",
+    "name": "OXXO Apodaca 2",
+    "address": "Av. Sendero Nacional 234",
+    "neighborhood": "Portal de Cumbres",
+    "city": "Apodaca",
+    "state": "Nuevo León",
+    "zipCode": "66630",
+    "lat": 25.7654,
+    "lng": -100.2012,
+    "phone": "81 8387-1144",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-067",
+    "name": "OXXO San Nicolás 2",
+    "address": "Av. Alfonso Reyes 890",
+    "neighborhood": "Las Américas",
+    "city": "San Nicolás de los Garza",
+    "state": "Nuevo León",
+    "zipCode": "66460",
+    "lat": 25.7123,
+    "lng": -100.2878,
+    "phone": "81 8376-0021",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-068",
+    "name": "OXXO Country Sol",
+    "address": "Av. del Maestro 567",
+    "neighborhood": "Country Sol",
+    "city": "Guadalupe",
+    "state": "Nuevo León",
+    "zipCode": "67170",
+    "lat": 25.6501,
+    "lng": -100.2345,
+    "phone": "81 8337-9922",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-069",
+    "name": "OXXO Vista Hermosa",
+    "address": "Av. Lázaro Cárdenas 890",
+    "neighborhood": "Vista Hermosa",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64780",
+    "lat": 25.7341,
+    "lng": -100.4012,
+    "phone": "81 8378-5500",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-070",
+    "name": "OXXO Contry",
+    "address": "Av. Contry 123",
+    "neighborhood": "Contry",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64860",
+    "lat": 25.6492,
+    "lng": -100.2781,
+    "phone": "81 8359-1100",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-071",
+    "name": "OXXO Escobedo Norte",
+    "address": "Av. Universidad 1200",
+    "neighborhood": "Praderas de San Francisco",
+    "city": "General Escobedo",
+    "state": "Nuevo León",
+    "zipCode": "66050",
+    "lat": 25.8123,
+    "lng": -100.3234,
+    "phone": "81 8352-8891",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-072",
+    "name": "OXXO Zuazua",
+    "address": "Av. Benito Juárez 234",
+    "neighborhood": "Centro",
+    "city": "General Zuazua",
+    "state": "Nuevo León",
+    "zipCode": "65760",
+    "lat": 25.8901,
+    "lng": -100.1123,
+    "phone": "81 8293-4401",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-073",
+    "name": "OXXO Linares",
+    "address": "Av. Madero 450",
+    "neighborhood": "Centro",
+    "city": "Linares",
+    "state": "Nuevo León",
+    "zipCode": "67700",
+    "lat": 24.8612,
+    "lng": -99.5643,
+    "phone": "82 1282-1100",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-074",
+    "name": "OXXO Montemorelos",
+    "address": "Av. Juárez 120",
+    "neighborhood": "Centro",
+    "city": "Montemorelos",
+    "state": "Nuevo León",
+    "zipCode": "67500",
+    "lat": 25.1867,
+    "lng": -99.8301,
+    "phone": "82 6263-1122",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-075",
+    "name": "OXXO Allende NL",
+    "address": "Carr. Monterrey-Allende 23",
+    "neighborhood": "Centro",
+    "city": "Allende",
+    "state": "Nuevo León",
+    "zipCode": "67350",
+    "lat": 25.2789,
+    "lng": -100.0231,
+    "phone": "81 8288-4422",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-076",
+    "name": "OXXO Salinas Victoria",
+    "address": "Carr. Nacional 450",
+    "neighborhood": "Centro",
+    "city": "Salinas Victoria",
+    "state": "Nuevo León",
+    "zipCode": "65500",
+    "lat": 26.0123,
+    "lng": -100.2987,
+    "phone": "81 8293-0011",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-077",
+    "name": "OXXO Valle de Lincoln",
+    "address": "Av. Lincoln 234",
+    "neighborhood": "Valle de Lincoln",
+    "city": "García",
+    "state": "Nuevo León",
+    "zipCode": "66000",
+    "lat": 25.743,
+    "lng": -100.3412,
+    "phone": "81 8298-6600",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-078",
+    "name": "OXXO Monterrey Centro 2",
+    "address": "Av. Juárez 890",
+    "neighborhood": "Centro",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64000",
+    "lat": 25.6745,
+    "lng": -100.3187,
+    "phone": "81 8342-7733",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero",
+      "Impresiones"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-079",
+    "name": "OXXO Marín",
+    "address": "Av. Hidalgo 89",
+    "neighborhood": "Centro",
+    "city": "Marín",
+    "state": "Nuevo León",
+    "zipCode": "65120",
+    "lat": 25.8765,
+    "lng": -100.0432,
+    "phone": "81 8293-1109",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 20:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-080",
+    "name": "OXXO Ciénega de Flores",
+    "address": "Av. Juárez 120",
+    "neighborhood": "Centro",
+    "city": "Ciénega de Flores",
+    "state": "Nuevo León",
+    "zipCode": "65550",
+    "lat": 25.9543,
+    "lng": -100.1876,
+    "phone": "81 8293-7722",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-081",
+    "name": "OXXO Minerva",
+    "address": "Av. Vallarta 3300",
+    "neighborhood": "Vallarta",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44110",
+    "lat": 20.6757,
+    "lng": -103.3997,
+    "phone": "33 3615-8800",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-082",
+    "name": "OXXO Centro Histórico GDL",
+    "address": "Av. Hidalgo 120",
+    "neighborhood": "Centro",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44100",
+    "lat": 20.6597,
+    "lng": -103.3496,
+    "phone": "33 3614-2210",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-083",
+    "name": "OXXO Zapopan Centro",
+    "address": "Av. Hidalgo 45",
+    "neighborhood": "Centro",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45100",
+    "lat": 20.7214,
+    "lng": -103.3897,
+    "phone": "33 3833-5544",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-084",
+    "name": "OXXO Tlaquepaque",
+    "address": "Av. Revolución 88",
+    "neighborhood": "San Pedro Tlaquepaque",
+    "city": "Tlaquepaque",
+    "state": "Jalisco",
+    "zipCode": "45500",
+    "lat": 20.6413,
+    "lng": -103.3079,
+    "phone": "33 3657-9921",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-085",
+    "name": "OXXO Tonalá",
+    "address": "Av. Tonaltecas 210",
+    "neighborhood": "Centro",
+    "city": "Tonalá",
+    "state": "Jalisco",
+    "zipCode": "45400",
+    "lat": 20.6239,
+    "lng": -103.2359,
+    "phone": "33 3683-4488",
+    "hours": {
+      "monday": "06:00 - 22:00",
+      "tuesday": "06:00 - 22:00",
+      "wednesday": "06:00 - 22:00",
+      "thursday": "06:00 - 22:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-086",
+    "name": "OXXO Providencia",
+    "address": "Av. Providencia 1890",
+    "neighborhood": "Providencia",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44630",
+    "lat": 20.6894,
+    "lng": -103.3812,
+    "phone": "33 3641-7766",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero",
+      "Impresiones"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-087",
+    "name": "OXXO Puerta de Hierro",
+    "address": "Av. Acueducto 6050",
+    "neighborhood": "Puerta de Hierro",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45116",
+    "lat": 20.7301,
+    "lng": -103.4312,
+    "phone": "33 3848-9933",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-088",
+    "name": "OXXO Tlajomulco",
+    "address": "Av. López Mateos Sur 7200",
+    "neighborhood": "Santa Fe",
+    "city": "Tlajomulco de Zúñiga",
+    "state": "Jalisco",
+    "zipCode": "45640",
+    "lat": 20.4721,
+    "lng": -103.4426,
+    "phone": "33 3688-1155",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-089",
+    "name": "OXXO Chapalita",
+    "address": "Av. Patria 890",
+    "neighborhood": "Chapalita",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44500",
+    "lat": 20.6789,
+    "lng": -103.4123,
+    "phone": "33 3121-4411",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-090",
+    "name": "OXXO Huentitán",
+    "address": "Av. Alcalde 2340",
+    "neighborhood": "Huentitán el Alto",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44390",
+    "lat": 20.7234,
+    "lng": -103.3512,
+    "phone": "33 3674-8822",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-091",
+    "name": "OXXO Oblatos",
+    "address": "Av. Circunvalación División del Norte 890",
+    "neighborhood": "Oblatos",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44720",
+    "lat": 20.6912,
+    "lng": -103.3123,
+    "phone": "33 3651-3311",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-092",
+    "name": "OXXO Analco",
+    "address": "Av. Juárez 890",
+    "neighborhood": "Analco",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44450",
+    "lat": 20.6512,
+    "lng": -103.3367,
+    "phone": "33 3619-0044",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-093",
+    "name": "OXXO Santa Teresita",
+    "address": "Av. Guadalupe 560",
+    "neighborhood": "Santa Teresita",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44600",
+    "lat": 20.6834,
+    "lng": -103.3623,
+    "phone": "33 3642-7711",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-094",
+    "name": "OXXO San Juan de Dios",
+    "address": "Dionisio Rodríguez 45",
+    "neighborhood": "San Juan de Dios",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44360",
+    "lat": 20.6601,
+    "lng": -103.3378,
+    "phone": "33 3618-9920",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-095",
+    "name": "OXXO Tetlán",
+    "address": "Av. López Mateos Norte 890",
+    "neighborhood": "Tetlán",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44820",
+    "lat": 20.6678,
+    "lng": -103.2934,
+    "phone": "33 3650-4488",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-096",
+    "name": "OXXO Ciudad Granja",
+    "address": "Av. La Paz 2340",
+    "neighborhood": "Ciudad Granja",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45010",
+    "lat": 20.7123,
+    "lng": -103.4678,
+    "phone": "33 3110-8833",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-097",
+    "name": "OXXO La Estancia",
+    "address": "Av. Vallarta 6100",
+    "neighborhood": "La Estancia",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45030",
+    "lat": 20.7012,
+    "lng": -103.4123,
+    "phone": "33 3110-5544",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-098",
+    "name": "OXXO Lomas de Zapopan",
+    "address": "Av. Aviación 1450",
+    "neighborhood": "Lomas de Zapopan",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45130",
+    "lat": 20.7456,
+    "lng": -103.4345,
+    "phone": "33 3110-2211",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-099",
+    "name": "OXXO Puerto Vallarta Centro",
+    "address": "Insurgentes 100",
+    "neighborhood": "Centro",
+    "city": "Puerto Vallarta",
+    "state": "Jalisco",
+    "zipCode": "48300",
+    "lat": 20.6534,
+    "lng": -105.2253,
+    "phone": "32 2222-0011",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-100",
+    "name": "OXXO Puerto Vallarta Zona Hotelera",
+    "address": "Blvd. Francisco Medina Ascencio 2900",
+    "neighborhood": "Las Glorias",
+    "city": "Puerto Vallarta",
+    "state": "Jalisco",
+    "zipCode": "48333",
+    "lat": 20.6812,
+    "lng": -105.2456,
+    "phone": "32 2224-7722",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 23:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-101",
+    "name": "OXXO Lagos de Moreno",
+    "address": "Av. López Mateos 234",
+    "neighborhood": "Centro",
+    "city": "Lagos de Moreno",
+    "state": "Jalisco",
+    "zipCode": "47400",
+    "lat": 21.3589,
+    "lng": -101.9287,
+    "phone": "47 4742-1100",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-102",
+    "name": "OXXO Tepatitlán",
+    "address": "Av. Degollado 234",
+    "neighborhood": "Centro",
+    "city": "Tepatitlán de Morelos",
+    "state": "Jalisco",
+    "zipCode": "47600",
+    "lat": 20.8234,
+    "lng": -102.7456,
+    "phone": "37 8781-2233",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "ATM"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-103",
+    "name": "OXXO El Salto",
+    "address": "Av. Constitución 120",
+    "neighborhood": "Centro",
+    "city": "El Salto",
+    "state": "Jalisco",
+    "zipCode": "45693",
+    "lat": 20.5234,
+    "lng": -103.1897,
+    "phone": "33 3289-6611",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-104",
+    "name": "OXXO Tlajomulco 2",
+    "address": "Av. López Mateos Sur 8900",
+    "neighborhood": "Santa Cruz del Valle",
+    "city": "Tlajomulco de Zúñiga",
+    "state": "Jalisco",
+    "zipCode": "45653",
+    "lat": 20.5123,
+    "lng": -103.4512,
+    "phone": "33 3688-3344",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-105",
+    "name": "OXXO Chapultepec GDL",
+    "address": "Av. Chapultepec Norte 140",
+    "neighborhood": "Chapultepec Norte",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44600",
+    "lat": 20.6723,
+    "lng": -103.3734,
+    "phone": "33 3826-5500",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-106",
+    "name": "OXXO Tlaquepaque 2",
+    "address": "Av. Niños Héroes 890",
+    "neighborhood": "Las Fuentes",
+    "city": "Tlaquepaque",
+    "state": "Jalisco",
+    "zipCode": "45560",
+    "lat": 20.6312,
+    "lng": -103.2945,
+    "phone": "33 3666-7721",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-107",
+    "name": "OXXO Tonalá 2",
+    "address": "Av. Periférico 1200",
+    "neighborhood": "Los Puestos",
+    "city": "Tonalá",
+    "state": "Jalisco",
+    "zipCode": "45420",
+    "lat": 20.6123,
+    "lng": -103.2234,
+    "phone": "33 3683-9900",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-108",
+    "name": "OXXO Zapopan Norte",
+    "address": "Av. Patria 1890",
+    "neighborhood": "Jardines de la Patria",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45070",
+    "lat": 20.7589,
+    "lng": -103.3923,
+    "phone": "33 3833-1122",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-109",
+    "name": "OXXO Jardines de la Cruz",
+    "address": "Av. 8 de Julio 890",
+    "neighborhood": "Jardines de la Cruz",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44950",
+    "lat": 20.6912,
+    "lng": -103.3789,
+    "phone": "33 3671-4433",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-110",
+    "name": "OXXO Ciudad Guzmán",
+    "address": "Av. Colón 450",
+    "neighborhood": "Centro",
+    "city": "Ciudad Guzmán",
+    "state": "Jalisco",
+    "zipCode": "49000",
+    "lat": 19.7089,
+    "lng": -103.4623,
+    "phone": "34 1413-1100",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-111",
+    "name": "OXXO La Barca",
+    "address": "Av. Hidalgo 120",
+    "neighborhood": "Centro",
+    "city": "La Barca",
+    "state": "Jalisco",
+    "zipCode": "47910",
+    "lat": 20.2834,
+    "lng": -102.5612,
+    "phone": "39 3255-2211",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-112",
+    "name": "OXXO Arandas",
+    "address": "Av. Hidalgo 234",
+    "neighborhood": "Centro",
+    "city": "Arandas",
+    "state": "Jalisco",
+    "zipCode": "47180",
+    "lat": 20.7045,
+    "lng": -102.3456,
+    "phone": "34 8783-1100",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-113",
+    "name": "OXXO San Juan de los Lagos",
+    "address": "Av. Benito Juárez 120",
+    "neighborhood": "Centro",
+    "city": "San Juan de los Lagos",
+    "state": "Jalisco",
+    "zipCode": "47000",
+    "lat": 21.2456,
+    "lng": -102.3234,
+    "phone": "39 5785-1100",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-114",
+    "name": "OXXO Ocotlán",
+    "address": "Morelos 45",
+    "neighborhood": "Centro",
+    "city": "Ocotlán",
+    "state": "Jalisco",
+    "zipCode": "47800",
+    "lat": 20.3542,
+    "lng": -102.7654,
+    "phone": "39 2222-1100",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:00",
+      "saturday": "08:00 - 23:00",
+      "sunday": "09:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-115",
+    "name": "OXXO Colinas de la Normal",
+    "address": "Av. Patria 345",
+    "neighborhood": "Colinas de la Normal",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44270",
+    "lat": 20.7089,
+    "lng": -103.3267,
+    "phone": "33 3675-3311",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-116",
+    "name": "OXXO San Juan de Ocotán",
+    "address": "Av. Aviación 3450",
+    "neighborhood": "San Juan de Ocotán",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45019",
+    "lat": 20.7512,
+    "lng": -103.4678,
+    "phone": "33 3110-6600",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-117",
+    "name": "OXXO Jardines del Bosque",
+    "address": "Av. Mariano Otero 890",
+    "neighborhood": "Jardines del Bosque",
+    "city": "Guadalajara",
+    "state": "Jalisco",
+    "zipCode": "44520",
+    "lat": 20.7178,
+    "lng": -103.4012,
+    "phone": "33 3122-8844",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 00:00",
+      "saturday": "07:00 - 00:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-118",
+    "name": "OXXO Ameca",
+    "address": "Av. Morelos 234",
+    "neighborhood": "Centro",
+    "city": "Ameca",
+    "state": "Jalisco",
+    "zipCode": "46600",
+    "lat": 20.5487,
+    "lng": -104.0456,
+    "phone": "37 5758-1100",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-119",
+    "name": "OXXO Autlán",
+    "address": "Av. Independencia 120",
+    "neighborhood": "Centro",
+    "city": "Autlán de Navarro",
+    "state": "Jalisco",
+    "zipCode": "48900",
+    "lat": 19.7723,
+    "lng": -104.3678,
+    "phone": "31 7713-1122",
+    "hours": {
+      "monday": "06:00 - 23:00",
+      "tuesday": "06:00 - 23:00",
+      "wednesday": "06:00 - 23:00",
+      "thursday": "06:00 - 23:00",
+      "friday": "06:00 - 23:00",
+      "saturday": "07:00 - 23:00",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-120",
+    "name": "OXXO El Colli",
+    "address": "Av. Colli 890",
+    "neighborhood": "El Colli Urbano",
+    "city": "Zapopan",
+    "state": "Jalisco",
+    "zipCode": "45070",
+    "lat": 20.7345,
+    "lng": -103.4234,
+    "phone": "33 3110-4422",
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero"
+    ],
+    "isOpen24h": true,
+    "active": true
+  },
+  {
+    "id": "oxxo-121",
+    "name": "OXXO Copilco",
+    "address": "Av. Copilco 340",
+    "neighborhood": "Copilco el Alto",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "04360",
+    "lat": 19.3278,
+    "lng": -99.1674,
+    "phone": "55 5623-4401",
+    "hours": {
+      "monday": "07:00 - 23:00",
+      "tuesday": "07:00 - 23:00",
+      "wednesday": "07:00 - 23:00",
+      "thursday": "07:00 - 23:00",
+      "friday": "07:00 - 23:30",
+      "saturday": "07:00 - 23:30",
+      "sunday": "08:00 - 22:00"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "oxxo-122",
+    "name": "OXXO Milpa Alta",
+    "address": "Constitución 5 Ote",
+    "neighborhood": "Villa Milpa Alta",
+    "city": "Ciudad de México",
+    "state": "CDMX",
+    "zipCode": "12000",
+    "lat": 19.1895,
+    "lng": -99.0233,
+    "phone": "55 5844-1188",
+    "hours": {
+      "monday": "07:00 - 22:00",
+      "tuesday": "07:00 - 22:00",
+      "wednesday": "07:00 - 22:00",
+      "thursday": "07:00 - 22:00",
+      "friday": "07:00 - 22:00",
+      "saturday": "08:00 - 22:00",
+      "sunday": "09:00 - 21:00"
+    },
+    "services": [
+      "Pago de servicios",
+      "Recarga de celular"
+    ],
+    "isOpen24h": false,
+    "active": true
+  }
+]

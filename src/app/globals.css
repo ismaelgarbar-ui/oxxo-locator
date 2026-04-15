@@ -1,26 +1,146 @@
 @import "tailwindcss";
 
+/* OXXO Store Locator - Design System */
+
+/* Light mode tokens */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --c-bg:          #F7F7F7;
+  --c-surface:     #FFFFFF;
+  --c-surface-2:   #F2F2F2;
+  --c-border:      #E2E2E2;
+  --c-text:        #1A1A1A;
+  --c-text-muted:  #717171;
+  --c-text-subtle: #ADADAD;
+  --c-red:         #EE1C25;
+  --c-red-dark:    #C41019;
+  --c-yellow:      #F5A800;
+  --c-dark:        #1A1A1A;
+  --c-shadow:      rgba(0,0,0,0.10);
+  --c-shadow-lg:   rgba(0,0,0,0.18);
+  --c-overlay:     rgba(0,0,0,0.45);
 }
 
+/* Dark mode tokens */
+.dark {
+  --c-bg:          #0D0D0D;
+  --c-surface:     #181818;
+  --c-surface-2:   #242424;
+  --c-border:      #2E2E2E;
+  --c-text:        #F0F0F0;
+  --c-text-muted:  #A0A0A0;
+  --c-text-subtle: #5A5A5A;
+  --c-shadow:      rgba(0,0,0,0.40);
+  --c-shadow-lg:   rgba(0,0,0,0.60);
+  --c-overlay:     rgba(0,0,0,0.70);
+}
+
+/* Tailwind theme mapping */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-oxxo-red:      #EE1C25;
+  --color-oxxo-red-dark: #C41019;
+  --color-oxxo-yellow:   #F5A800;
+  --color-oxxo-dark:     #1A1A1A;
+  --color-surface:       var(--c-surface);
+  --color-surface-2:     var(--c-surface-2);
+  --color-bg:            var(--c-bg);
+  --color-border:        var(--c-border);
+  --color-txt:           var(--c-text);
+  --color-muted:         var(--c-text-muted);
+  --color-subtle:        var(--c-text-subtle);
+  --font-sans:           var(--font-jakarta), 'Arial', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Base */
+html, body { height: 100%; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background: var(--c-bg);
+  color: var(--c-text);
+  overscroll-behavior: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
 }
+
+/* Safe area */
+.pt-safe-top      { padding-top:    max(0.75rem, env(safe-area-inset-top)); }
+.safe-area-bottom { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+
+/* Scrollbar hidden */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Premium shadows */
+.shadow-card    { box-shadow: 0 1px 3px var(--c-shadow), 0 4px 12px var(--c-shadow); }
+.shadow-card-lg { box-shadow: 0 4px 8px var(--c-shadow), 0 12px 32px var(--c-shadow-lg); }
+.shadow-sheet   { box-shadow: 0 -8px 40px var(--c-shadow-lg); }
+
+/* Animations & keyframes */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%       { transform: scale(1.4); opacity: 0.6; }
+}
+@keyframes pin-drop {
+  0%   { transform: translateY(-24px) scale(0.8); opacity: 0; }
+  60%  { transform: translateY(4px) scale(1.05); opacity: 1; }
+  100% { transform: translateY(0) scale(1); opacity: 1; }
+}
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+@keyframes slide-down {
+  from { transform: translateY(0); }
+  to   { transform: translateY(100%); }
+}
+
+.animate-fade-up  { animation: fadeUp  0.35s cubic-bezier(0.22,1,0.36,1) both; }
+.animate-fade-in  { animation: fadeIn  0.25s ease both; }
+.animate-scale-in { animation: scaleIn 0.3s cubic-bezier(0.22,1,0.36,1) both; }
+.animate-pin-drop { animation: pin-drop 0.5s cubic-bezier(0.22,1,0.36,1) both; }
+
+/* Stagger children */
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 50ms; }
+.stagger > *:nth-child(3) { animation-delay: 100ms; }
+.stagger > *:nth-child(4) { animation-delay: 150ms; }
+.stagger > *:nth-child(5) { animation-delay: 200ms; }
+.stagger > *:nth-child(6) { animation-delay: 250ms; }
+.stagger > *:nth-child(n+7) { animation-delay: 300ms; }
+
+/* Skeleton shimmer */
+.skeleton {
+  background: linear-gradient(90deg, var(--c-surface-2) 25%, var(--c-border) 50%, var(--c-surface-2) 75%);
+  background-size: 400px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+
+/* Glass effect */
+.glass {
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  background: rgba(255,255,255,0.85);
+}
+.dark .glass {
+  background: rgba(24,24,24,0.88);
+}
+
+/* Smooth color transitions */
+* { transition-property: background-color, border-color, color; transition-duration: 0.2s; }
