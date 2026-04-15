@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react';
 export function useDarkMode() {
   const [dark, setDark] = useState(false);
 
-  // On mount: read saved preference or system preference
+  // On mount: read saved preference (default to light)
   useEffect(() => {
     const saved = localStorage.getItem('oxxo-theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDark = saved ? saved === 'dark' : prefersDark;
+    // Only use dark if explicitly saved as dark
+    const isDark = saved === 'dark';
     setDark(isDark);
     document.documentElement.classList.toggle('dark', isDark);
   }, []);
