@@ -32,12 +32,14 @@ const IconNavBtn = ({ onClick, src, label }: {
   <motion.button
     whileTap={{ scale: 0.9 }}
     onClick={onClick}
-    className="flex flex-col items-center gap-1.5"
+    className="flex flex-col items-center gap-1"
   >
-    <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-[var(--c-border)] shadow-sm overflow-hidden active:brightness-95 transition-all">
-      <Image src={src} alt={label} width={48} height={48} className="object-cover" />
+    <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white border border-[var(--c-border)] shadow-sm overflow-hidden active:brightness-95 transition-all p-2.5">
+      <div className="relative w-full h-full">
+        <Image src={src} alt={label} fill className="object-contain" />
+      </div>
     </div>
-    <span className="text-[9px] font-black uppercase tracking-widest text-[var(--c-text-subtle)]">{label}</span>
+    <span className="text-[8px] font-black uppercase tracking-widest text-[var(--c-text-subtle)]">{label}</span>
   </motion.button>
 );
 
