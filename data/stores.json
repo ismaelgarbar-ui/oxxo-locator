@@ -1,7 +1,7 @@
 [
   {
-    "id": "oxxo-001",
-    "name": "OXXO Reforma",
+    "id": "mystore-001",
+    "name": "MyStore Reforma",
     "address": "Paseo de la Reforma 143",
     "neighborhood": "Cuauhtémoc",
     "city": "Ciudad de México",
@@ -29,8 +29,8 @@
     "active": true
   },
   {
-    "id": "oxxo-002",
-    "name": "OXXO Polanco",
+    "id": "mystore-002",
+    "name": "MyStore Polanco",
     "address": "Presidente Masaryk 40",
     "neighborhood": "Polanco",
     "city": "Ciudad de México",
@@ -57,8 +57,8 @@
     "active": true
   },
   {
-    "id": "oxxo-003",
-    "name": "OXXO Condesa",
+    "id": "mystore-003",
+    "name": "MyStore Condesa",
     "address": "Ámsterdam 120",
     "neighborhood": "Condesa",
     "city": "Ciudad de México",
@@ -85,8 +85,8 @@
     "active": true
   },
   {
-    "id": "oxxo-004",
-    "name": "OXXO Roma Norte",
+    "id": "mystore-004",
+    "name": "MyStore Roma Norte",
     "address": "Álvaro Obregón 154",
     "neighborhood": "Roma Norte",
     "city": "Ciudad de México",
@@ -115,8 +115,8 @@
     "active": true
   },
   {
-    "id": "oxxo-005",
-    "name": "OXXO Coyoacán",
+    "id": "mystore-005",
+    "name": "MyStore Coyoacán",
     "address": "Francisco Sosa 218",
     "neighborhood": "Coyoacán",
     "city": "Ciudad de México",
@@ -143,8 +143,8 @@
     "active": true
   },
   {
-    "id": "oxxo-006",
-    "name": "OXXO Pedregal",
+    "id": "mystore-006",
+    "name": "MyStore Pedregal",
     "address": "Insurgentes Sur 3579",
     "neighborhood": "Pedregal de San Ángel",
     "city": "Ciudad de México",
@@ -171,8 +171,8 @@
     "active": true
   },
   {
-    "id": "oxxo-007",
-    "name": "OXXO Santa Fe",
+    "id": "mystore-007",
+    "name": "MyStore Santa Fe",
     "address": "Prolongación Reforma 1236",
     "neighborhood": "Santa Fe",
     "city": "Ciudad de México",
@@ -200,8 +200,8 @@
     "active": true
   },
   {
-    "id": "oxxo-008",
-    "name": "OXXO Tlatelolco",
+    "id": "mystore-008",
+    "name": "MyStore Tlatelolco",
     "address": "Manuel González 102",
     "neighborhood": "Tlatelolco",
     "city": "Ciudad de México",
@@ -228,8 +228,8 @@
     "active": true
   },
   {
-    "id": "oxxo-009",
-    "name": "OXXO Doctores",
+    "id": "mystore-009",
+    "name": "MyStore Doctores",
     "address": "Dr. Río de la Loza 280",
     "neighborhood": "Doctores",
     "city": "Ciudad de México",
@@ -256,8 +256,8 @@
     "active": true
   },
   {
-    "id": "oxxo-010",
-    "name": "OXXO Iztapalapa",
+    "id": "mystore-010",
+    "name": "MyStore Iztapalapa",
     "address": "Av. Ermita Iztapalapa 890",
     "neighborhood": "Iztapalapa",
     "city": "Ciudad de México",
@@ -285,8 +285,8 @@
     "active": true
   },
   {
-    "id": "oxxo-011",
-    "name": "OXXO Naucalpan",
+    "id": "mystore-011",
+    "name": "MyStore Naucalpan",
     "address": "Av. Lomas Verdes 14",
     "neighborhood": "Lomas Verdes",
     "city": "Naucalpan",
@@ -312,8 +312,8 @@
     "active": true
   },
   {
-    "id": "oxxo-012",
-    "name": "OXXO Ecatepec",
+    "id": "mystore-012",
+    "name": "MyStore Ecatepec",
     "address": "Av. Central 89",
     "neighborhood": "Las Américas",
     "city": "Ecatepec",
@@ -340,8 +340,8 @@
     "active": true
   },
   {
-    "id": "oxxo-013",
-    "name": "OXXO Tlalpan",
+    "id": "mystore-013",
+    "name": "MyStore Tlalpan",
     "address": "Calzada de Tlalpan 1541",
     "neighborhood": "Tlalpan",
     "city": "Ciudad de México",
@@ -368,8 +368,8 @@
     "active": true
   },
   {
-    "id": "oxxo-014",
-    "name": "OXXO Xochimilco",
+    "id": "mystore-014",
+    "name": "MyStore Xochimilco",
     "address": "Pino 24",
     "neighborhood": "Centro Xochimilco",
     "city": "Ciudad de México",
@@ -395,8 +395,8 @@
     "active": true
   },
   {
-    "id": "oxxo-015",
-    "name": "OXXO Garibaldi",
+    "id": "mystore-015",
+    "name": "MyStore Garibaldi",
     "address": "Eje Central Lázaro Cárdenas 48",
     "neighborhood": "Guerrero",
     "city": "Ciudad de México",
@@ -424,8 +424,8 @@
     "active": true
   },
   {
-    "id": "oxxo-016",
-    "name": "OXXO Tepito",
+    "id": "mystore-016",
+    "name": "MyStore Tepito",
     "address": "Toltecas 23",
     "neighborhood": "Tepito",
     "city": "Ciudad de México",
@@ -452,8 +452,8 @@
     "active": true
   },
   {
-    "id": "oxxo-017",
-    "name": "OXXO Merced",
+    "id": "mystore-017",
+    "name": "MyStore Merced",
     "address": "Calle Uruguay 45",
     "neighborhood": "Merced",
     "city": "Ciudad de México",
@@ -479,8 +479,8 @@
     "active": true
   },
   {
-    "id": "oxxo-018",
-    "name": "OXXO Zócalo",
+    "id": "mystore-018",
+    "name": "MyStore Zócalo",
     "address": "Av. Madero 60",
     "neighborhood": "Centro Histórico",
     "city": "Ciudad de México",
@@ -509,8 +509,8 @@
     "active": true
   },
   {
-    "id": "oxxo-019",
-    "name": "OXXO Tacubaya",
+    "id": "mystore-019",
+    "name": "MyStore Tacubaya",
     "address": "Av. Revolución 1340",
     "neighborhood": "Tacubaya",
     "city": "Ciudad de México",
@@ -537,8 +537,8 @@
     "active": true
   },
   {
-    "id": "oxxo-020",
-    "name": "OXXO Santa María la Ribera",
+    "id": "mystore-020",
+    "name": "MyStore Santa María la Ribera",
     "address": "Insurgentes Norte 890",
     "neighborhood": "Santa María la Ribera",
     "city": "Ciudad de México",
@@ -566,8 +566,8 @@
     "active": true
   },
   {
-    "id": "oxxo-021",
-    "name": "OXXO Iztacalco",
+    "id": "mystore-021",
+    "name": "MyStore Iztacalco",
     "address": "Canal de San Juan 120",
     "neighborhood": "Iztacalco",
     "city": "Ciudad de México",
@@ -593,8 +593,8 @@
     "active": true
   },
   {
-    "id": "oxxo-022",
-    "name": "OXXO Cuajimalpa",
+    "id": "mystore-022",
+    "name": "MyStore Cuajimalpa",
     "address": "Av. México 68",
     "neighborhood": "Centro Cuajimalpa",
     "city": "Ciudad de México",
@@ -621,8 +621,8 @@
     "active": true
   },
   {
-    "id": "oxxo-023",
-    "name": "OXXO Lindavista",
+    "id": "mystore-023",
+    "name": "MyStore Lindavista",
     "address": "Av. Instituto Politécnico 2508",
     "neighborhood": "Lindavista",
     "city": "Ciudad de México",
@@ -649,8 +649,8 @@
     "active": true
   },
   {
-    "id": "oxxo-024",
-    "name": "OXXO Del Valle",
+    "id": "mystore-024",
+    "name": "MyStore Del Valle",
     "address": "Insurgentes Sur 680",
     "neighborhood": "Del Valle",
     "city": "Ciudad de México",
@@ -678,8 +678,8 @@
     "active": true
   },
   {
-    "id": "oxxo-025",
-    "name": "OXXO Tláhuac",
+    "id": "mystore-025",
+    "name": "MyStore Tláhuac",
     "address": "Av. Tláhuac 6200",
     "neighborhood": "Tláhuac",
     "city": "Ciudad de México",
@@ -705,8 +705,8 @@
     "active": true
   },
   {
-    "id": "oxxo-026",
-    "name": "OXXO Magdalena Contreras",
+    "id": "mystore-026",
+    "name": "MyStore Magdalena Contreras",
     "address": "Camino a Santa Teresa 890",
     "neighborhood": "La Magdalena Contreras",
     "city": "Ciudad de México",
@@ -732,8 +732,8 @@
     "active": true
   },
   {
-    "id": "oxxo-027",
-    "name": "OXXO Lomas Chapultepec",
+    "id": "mystore-027",
+    "name": "MyStore Lomas Chapultepec",
     "address": "Moliere 530",
     "neighborhood": "Lomas de Chapultepec",
     "city": "Ciudad de México",
@@ -760,8 +760,8 @@
     "active": true
   },
   {
-    "id": "oxxo-028",
-    "name": "OXXO Mixcoac",
+    "id": "mystore-028",
+    "name": "MyStore Mixcoac",
     "address": "Insurgentes Sur 2300",
     "neighborhood": "Mixcoac",
     "city": "Ciudad de México",
@@ -789,8 +789,8 @@
     "active": true
   },
   {
-    "id": "oxxo-029",
-    "name": "OXXO Portales",
+    "id": "mystore-029",
+    "name": "MyStore Portales",
     "address": "Eje 5 Sur 1120",
     "neighborhood": "Portales",
     "city": "Ciudad de México",
@@ -817,8 +817,8 @@
     "active": true
   },
   {
-    "id": "oxxo-030",
-    "name": "OXXO Peralvillo",
+    "id": "mystore-030",
+    "name": "MyStore Peralvillo",
     "address": "Circunvalación 89",
     "neighborhood": "Peralvillo",
     "city": "Ciudad de México",
@@ -845,8 +845,8 @@
     "active": true
   },
   {
-    "id": "oxxo-031",
-    "name": "OXXO Narvarte",
+    "id": "mystore-031",
+    "name": "MyStore Narvarte",
     "address": "Av. Insurgentes Sur 890",
     "neighborhood": "Narvarte",
     "city": "Ciudad de México",
@@ -873,8 +873,8 @@
     "active": true
   },
   {
-    "id": "oxxo-032",
-    "name": "OXXO Buenavista",
+    "id": "mystore-032",
+    "name": "MyStore Buenavista",
     "address": "Av. Insurgentes Norte 234",
     "neighborhood": "Buenavista",
     "city": "Ciudad de México",
@@ -902,8 +902,8 @@
     "active": true
   },
   {
-    "id": "oxxo-033",
-    "name": "OXXO Escandón",
+    "id": "mystore-033",
+    "name": "MyStore Escandón",
     "address": "Juan Escutia 45",
     "neighborhood": "Escandón",
     "city": "Ciudad de México",
@@ -929,8 +929,8 @@
     "active": true
   },
   {
-    "id": "oxxo-034",
-    "name": "OXXO Gustavo A. Madero",
+    "id": "mystore-034",
+    "name": "MyStore Gustavo A. Madero",
     "address": "Av. Politécnico Nacional 3200",
     "neighborhood": "Gustavo A. Madero",
     "city": "Ciudad de México",
@@ -957,8 +957,8 @@
     "active": true
   },
   {
-    "id": "oxxo-035",
-    "name": "OXXO Azcapotzalco",
+    "id": "mystore-035",
+    "name": "MyStore Azcapotzalco",
     "address": "Av. de los Maestros 115",
     "neighborhood": "Azcapotzalco",
     "city": "Ciudad de México",
@@ -985,8 +985,8 @@
     "active": true
   },
   {
-    "id": "oxxo-036",
-    "name": "OXXO San Ángel",
+    "id": "mystore-036",
+    "name": "MyStore San Ángel",
     "address": "Insurgentes Sur 3000",
     "neighborhood": "San Ángel",
     "city": "Ciudad de México",
@@ -1014,8 +1014,8 @@
     "active": true
   },
   {
-    "id": "oxxo-037",
-    "name": "OXXO Venustiano Carranza",
+    "id": "mystore-037",
+    "name": "MyStore Venustiano Carranza",
     "address": "Fray Servando Teresa de Mier 60",
     "neighborhood": "Venustiano Carranza",
     "city": "Ciudad de México",
@@ -1042,8 +1042,8 @@
     "active": true
   },
   {
-    "id": "oxxo-038",
-    "name": "OXXO Pantitlán",
+    "id": "mystore-038",
+    "name": "MyStore Pantitlán",
     "address": "Zaragoza 890",
     "neighborhood": "Pantitlán",
     "city": "Ciudad de México",
@@ -1069,8 +1069,8 @@
     "active": true
   },
   {
-    "id": "oxxo-039",
-    "name": "OXXO Obrera",
+    "id": "mystore-039",
+    "name": "MyStore Obrera",
     "address": "Dr. Pascua 120",
     "neighborhood": "Obrera",
     "city": "Ciudad de México",
@@ -1098,8 +1098,8 @@
     "active": true
   },
   {
-    "id": "oxxo-040",
-    "name": "OXXO Tepepan",
+    "id": "mystore-040",
+    "name": "MyStore Tepepan",
     "address": "Av. División del Norte 5640",
     "neighborhood": "Tepepan",
     "city": "Ciudad de México",
@@ -1125,8 +1125,8 @@
     "active": true
   },
   {
-    "id": "oxxo-041",
-    "name": "OXXO Macroplaza",
+    "id": "mystore-041",
+    "name": "MyStore Macroplaza",
     "address": "Av. Constitución 300",
     "neighborhood": "Centro",
     "city": "Monterrey",
@@ -1154,8 +1154,8 @@
     "active": true
   },
   {
-    "id": "oxxo-042",
-    "name": "OXXO San Pedro",
+    "id": "mystore-042",
+    "name": "MyStore San Pedro",
     "address": "Av. Vasconcelos 215",
     "neighborhood": "Del Valle",
     "city": "San Pedro Garza García",
@@ -1182,8 +1182,8 @@
     "active": true
   },
   {
-    "id": "oxxo-043",
-    "name": "OXXO Cumbres",
+    "id": "mystore-043",
+    "name": "MyStore Cumbres",
     "address": "Av. Cumbres 1er Sector 400",
     "neighborhood": "Cumbres",
     "city": "Monterrey",
@@ -1211,8 +1211,8 @@
     "active": true
   },
   {
-    "id": "oxxo-044",
-    "name": "OXXO Guadalupe",
+    "id": "mystore-044",
+    "name": "MyStore Guadalupe",
     "address": "Av. Pablo González 890",
     "neighborhood": "Las Puentes",
     "city": "Guadalupe",
@@ -1239,8 +1239,8 @@
     "active": true
   },
   {
-    "id": "oxxo-045",
-    "name": "OXXO Apodaca",
+    "id": "mystore-045",
+    "name": "MyStore Apodaca",
     "address": "Blvd. Apodaca 1200",
     "neighborhood": "Las Américas",
     "city": "Apodaca",
@@ -1267,8 +1267,8 @@
     "active": true
   },
   {
-    "id": "oxxo-046",
-    "name": "OXXO Santa Catarina",
+    "id": "mystore-046",
+    "name": "MyStore Santa Catarina",
     "address": "Av. Industriales 540",
     "neighborhood": "Industrial",
     "city": "Santa Catarina",
@@ -1294,8 +1294,8 @@
     "active": true
   },
   {
-    "id": "oxxo-047",
-    "name": "OXXO Escobedo",
+    "id": "mystore-047",
+    "name": "MyStore Escobedo",
     "address": "Av. Benito Juárez 750",
     "neighborhood": "Centro",
     "city": "General Escobedo",
@@ -1323,8 +1323,8 @@
     "active": true
   },
   {
-    "id": "oxxo-048",
-    "name": "OXXO Barrio Antiguo",
+    "id": "mystore-048",
+    "name": "MyStore Barrio Antiguo",
     "address": "Padre Mier 123",
     "neighborhood": "Barrio Antiguo",
     "city": "Monterrey",
@@ -1351,8 +1351,8 @@
     "active": true
   },
   {
-    "id": "oxxo-049",
-    "name": "OXXO San Nicolás",
+    "id": "mystore-049",
+    "name": "MyStore San Nicolás",
     "address": "Av. Universidad 1234",
     "neighborhood": "Centro",
     "city": "San Nicolás de los Garza",
@@ -1379,8 +1379,8 @@
     "active": true
   },
   {
-    "id": "oxxo-050",
-    "name": "OXXO Obispado",
+    "id": "mystore-050",
+    "name": "MyStore Obispado",
     "address": "Av. Obispado 200",
     "neighborhood": "Obispado",
     "city": "Monterrey",
@@ -1408,8 +1408,8 @@
     "active": true
   },
   {
-    "id": "oxxo-051",
-    "name": "OXXO Mitras Norte",
+    "id": "mystore-051",
+    "name": "MyStore Mitras Norte",
     "address": "Av. Mitras 890",
     "neighborhood": "Mitras Norte",
     "city": "Monterrey",
@@ -1435,8 +1435,8 @@
     "active": true
   },
   {
-    "id": "oxxo-052",
-    "name": "OXXO Tecnológico",
+    "id": "mystore-052",
+    "name": "MyStore Tecnológico",
     "address": "Av. del Tecnológico 120",
     "neighborhood": "Tecnológico",
     "city": "Monterrey",
@@ -1463,8 +1463,8 @@
     "active": true
   },
   {
-    "id": "oxxo-053",
-    "name": "OXXO Anahuac",
+    "id": "mystore-053",
+    "name": "MyStore Anahuac",
     "address": "Av. Ruiz Cortines 450",
     "neighborhood": "Anahuac",
     "city": "San Nicolás de los Garza",
@@ -1492,8 +1492,8 @@
     "active": true
   },
   {
-    "id": "oxxo-054",
-    "name": "OXXO Independencia",
+    "id": "mystore-054",
+    "name": "MyStore Independencia",
     "address": "Av. Constitución 789",
     "neighborhood": "Independencia",
     "city": "Monterrey",
@@ -1519,8 +1519,8 @@
     "active": true
   },
   {
-    "id": "oxxo-055",
-    "name": "OXXO Mitras Centro",
+    "id": "mystore-055",
+    "name": "MyStore Mitras Centro",
     "address": "Av. Venustiano Carranza 1200",
     "neighborhood": "Mitras Centro",
     "city": "Monterrey",
@@ -1547,8 +1547,8 @@
     "active": true
   },
   {
-    "id": "oxxo-056",
-    "name": "OXXO Monterrey Sur",
+    "id": "mystore-056",
+    "name": "MyStore Monterrey Sur",
     "address": "Av. Félix U. Gómez 890",
     "neighborhood": "Industrial",
     "city": "Monterrey",
@@ -1575,8 +1575,8 @@
     "active": true
   },
   {
-    "id": "oxxo-057",
-    "name": "OXXO San Jerónimo",
+    "id": "mystore-057",
+    "name": "MyStore San Jerónimo",
     "address": "Av. San Jerónimo 456",
     "neighborhood": "San Jerónimo",
     "city": "Monterrey",
@@ -1603,8 +1603,8 @@
     "active": true
   },
   {
-    "id": "oxxo-058",
-    "name": "OXXO Las Quintas",
+    "id": "mystore-058",
+    "name": "MyStore Las Quintas",
     "address": "Av. Acueducto 789",
     "neighborhood": "Las Quintas",
     "city": "Monterrey",
@@ -1632,8 +1632,8 @@
     "active": true
   },
   {
-    "id": "oxxo-059",
-    "name": "OXXO García",
+    "id": "mystore-059",
+    "name": "MyStore García",
     "address": "Av. Benito Juárez 340",
     "neighborhood": "Centro",
     "city": "García",
@@ -1659,8 +1659,8 @@
     "active": true
   },
   {
-    "id": "oxxo-060",
-    "name": "OXXO Pesquería",
+    "id": "mystore-060",
+    "name": "MyStore Pesquería",
     "address": "Av. Industrias 456",
     "neighborhood": "Centro",
     "city": "Pesquería",
@@ -1687,8 +1687,8 @@
     "active": true
   },
   {
-    "id": "oxxo-061",
-    "name": "OXXO Santiago NL",
+    "id": "mystore-061",
+    "name": "MyStore Santiago NL",
     "address": "Hidalgo 23",
     "neighborhood": "Centro",
     "city": "Santiago",
@@ -1714,8 +1714,8 @@
     "active": true
   },
   {
-    "id": "oxxo-062",
-    "name": "OXXO Cadereyta",
+    "id": "mystore-062",
+    "name": "MyStore Cadereyta",
     "address": "Av. Allende 450",
     "neighborhood": "Centro",
     "city": "Cadereyta Jiménez",
@@ -1742,8 +1742,8 @@
     "active": true
   },
   {
-    "id": "oxxo-063",
-    "name": "OXXO San Pedro 2",
+    "id": "mystore-063",
+    "name": "MyStore San Pedro 2",
     "address": "Av. Vasconcelos 890",
     "neighborhood": "Residencial San Agustín",
     "city": "San Pedro Garza García",
@@ -1771,8 +1771,8 @@
     "active": true
   },
   {
-    "id": "oxxo-064",
-    "name": "OXXO Cumbres 2",
+    "id": "mystore-064",
+    "name": "MyStore Cumbres 2",
     "address": "Av. Cumbres 3er Sector 120",
     "neighborhood": "Cumbres",
     "city": "Monterrey",
@@ -1799,8 +1799,8 @@
     "active": true
   },
   {
-    "id": "oxxo-065",
-    "name": "OXXO Guadalupe 2",
+    "id": "mystore-065",
+    "name": "MyStore Guadalupe 2",
     "address": "Av. Benito Juárez 456",
     "neighborhood": "Centro",
     "city": "Guadalupe",
@@ -1827,8 +1827,8 @@
     "active": true
   },
   {
-    "id": "oxxo-066",
-    "name": "OXXO Apodaca 2",
+    "id": "mystore-066",
+    "name": "MyStore Apodaca 2",
     "address": "Av. Sendero Nacional 234",
     "neighborhood": "Portal de Cumbres",
     "city": "Apodaca",
@@ -1855,8 +1855,8 @@
     "active": true
   },
   {
-    "id": "oxxo-067",
-    "name": "OXXO San Nicolás 2",
+    "id": "mystore-067",
+    "name": "MyStore San Nicolás 2",
     "address": "Av. Alfonso Reyes 890",
     "neighborhood": "Las Américas",
     "city": "San Nicolás de los Garza",
@@ -1884,8 +1884,8 @@
     "active": true
   },
   {
-    "id": "oxxo-068",
-    "name": "OXXO Country Sol",
+    "id": "mystore-068",
+    "name": "MyStore Country Sol",
     "address": "Av. del Maestro 567",
     "neighborhood": "Country Sol",
     "city": "Guadalupe",
@@ -1911,8 +1911,8 @@
     "active": true
   },
   {
-    "id": "oxxo-069",
-    "name": "OXXO Vista Hermosa",
+    "id": "mystore-069",
+    "name": "MyStore Vista Hermosa",
     "address": "Av. Lázaro Cárdenas 890",
     "neighborhood": "Vista Hermosa",
     "city": "Monterrey",
@@ -1939,8 +1939,8 @@
     "active": true
   },
   {
-    "id": "oxxo-070",
-    "name": "OXXO Contry",
+    "id": "mystore-070",
+    "name": "MyStore Contry",
     "address": "Av. Contry 123",
     "neighborhood": "Contry",
     "city": "Monterrey",
@@ -1968,8 +1968,8 @@
     "active": true
   },
   {
-    "id": "oxxo-071",
-    "name": "OXXO Escobedo Norte",
+    "id": "mystore-071",
+    "name": "MyStore Escobedo Norte",
     "address": "Av. Universidad 1200",
     "neighborhood": "Praderas de San Francisco",
     "city": "General Escobedo",
@@ -1995,8 +1995,8 @@
     "active": true
   },
   {
-    "id": "oxxo-072",
-    "name": "OXXO Zuazua",
+    "id": "mystore-072",
+    "name": "MyStore Zuazua",
     "address": "Av. Benito Juárez 234",
     "neighborhood": "Centro",
     "city": "General Zuazua",
@@ -2023,8 +2023,8 @@
     "active": true
   },
   {
-    "id": "oxxo-073",
-    "name": "OXXO Linares",
+    "id": "mystore-073",
+    "name": "MyStore Linares",
     "address": "Av. Madero 450",
     "neighborhood": "Centro",
     "city": "Linares",
@@ -2051,8 +2051,8 @@
     "active": true
   },
   {
-    "id": "oxxo-074",
-    "name": "OXXO Montemorelos",
+    "id": "mystore-074",
+    "name": "MyStore Montemorelos",
     "address": "Av. Juárez 120",
     "neighborhood": "Centro",
     "city": "Montemorelos",
@@ -2078,8 +2078,8 @@
     "active": true
   },
   {
-    "id": "oxxo-075",
-    "name": "OXXO Allende NL",
+    "id": "mystore-075",
+    "name": "MyStore Allende NL",
     "address": "Carr. Monterrey-Allende 23",
     "neighborhood": "Centro",
     "city": "Allende",
@@ -2105,8 +2105,8 @@
     "active": true
   },
   {
-    "id": "oxxo-076",
-    "name": "OXXO Salinas Victoria",
+    "id": "mystore-076",
+    "name": "MyStore Salinas Victoria",
     "address": "Carr. Nacional 450",
     "neighborhood": "Centro",
     "city": "Salinas Victoria",
@@ -2133,8 +2133,8 @@
     "active": true
   },
   {
-    "id": "oxxo-077",
-    "name": "OXXO Valle de Lincoln",
+    "id": "mystore-077",
+    "name": "MyStore Valle de Lincoln",
     "address": "Av. Lincoln 234",
     "neighborhood": "Valle de Lincoln",
     "city": "García",
@@ -2162,8 +2162,8 @@
     "active": true
   },
   {
-    "id": "oxxo-078",
-    "name": "OXXO Monterrey Centro 2",
+    "id": "mystore-078",
+    "name": "MyStore Monterrey Centro 2",
     "address": "Av. Juárez 890",
     "neighborhood": "Centro",
     "city": "Monterrey",
@@ -2192,8 +2192,8 @@
     "active": true
   },
   {
-    "id": "oxxo-079",
-    "name": "OXXO Marín",
+    "id": "mystore-079",
+    "name": "MyStore Marín",
     "address": "Av. Hidalgo 89",
     "neighborhood": "Centro",
     "city": "Marín",
@@ -2219,8 +2219,8 @@
     "active": true
   },
   {
-    "id": "oxxo-080",
-    "name": "OXXO Ciénega de Flores",
+    "id": "mystore-080",
+    "name": "MyStore Ciénega de Flores",
     "address": "Av. Juárez 120",
     "neighborhood": "Centro",
     "city": "Ciénega de Flores",
@@ -2246,8 +2246,8 @@
     "active": true
   },
   {
-    "id": "oxxo-081",
-    "name": "OXXO Minerva",
+    "id": "mystore-081",
+    "name": "MyStore Minerva",
     "address": "Av. Vallarta 3300",
     "neighborhood": "Vallarta",
     "city": "Guadalajara",
@@ -2275,8 +2275,8 @@
     "active": true
   },
   {
-    "id": "oxxo-082",
-    "name": "OXXO Centro Histórico GDL",
+    "id": "mystore-082",
+    "name": "MyStore Centro Histórico GDL",
     "address": "Av. Hidalgo 120",
     "neighborhood": "Centro",
     "city": "Guadalajara",
@@ -2303,8 +2303,8 @@
     "active": true
   },
   {
-    "id": "oxxo-083",
-    "name": "OXXO Zapopan Centro",
+    "id": "mystore-083",
+    "name": "MyStore Zapopan Centro",
     "address": "Av. Hidalgo 45",
     "neighborhood": "Centro",
     "city": "Zapopan",
@@ -2332,8 +2332,8 @@
     "active": true
   },
   {
-    "id": "oxxo-084",
-    "name": "OXXO Tlaquepaque",
+    "id": "mystore-084",
+    "name": "MyStore Tlaquepaque",
     "address": "Av. Revolución 88",
     "neighborhood": "San Pedro Tlaquepaque",
     "city": "Tlaquepaque",
@@ -2360,8 +2360,8 @@
     "active": true
   },
   {
-    "id": "oxxo-085",
-    "name": "OXXO Tonalá",
+    "id": "mystore-085",
+    "name": "MyStore Tonalá",
     "address": "Av. Tonaltecas 210",
     "neighborhood": "Centro",
     "city": "Tonalá",
@@ -2387,8 +2387,8 @@
     "active": true
   },
   {
-    "id": "oxxo-086",
-    "name": "OXXO Providencia",
+    "id": "mystore-086",
+    "name": "MyStore Providencia",
     "address": "Av. Providencia 1890",
     "neighborhood": "Providencia",
     "city": "Guadalajara",
@@ -2417,8 +2417,8 @@
     "active": true
   },
   {
-    "id": "oxxo-087",
-    "name": "OXXO Puerta de Hierro",
+    "id": "mystore-087",
+    "name": "MyStore Puerta de Hierro",
     "address": "Av. Acueducto 6050",
     "neighborhood": "Puerta de Hierro",
     "city": "Zapopan",
@@ -2445,8 +2445,8 @@
     "active": true
   },
   {
-    "id": "oxxo-088",
-    "name": "OXXO Tlajomulco",
+    "id": "mystore-088",
+    "name": "MyStore Tlajomulco",
     "address": "Av. López Mateos Sur 7200",
     "neighborhood": "Santa Fe",
     "city": "Tlajomulco de Zúñiga",
@@ -2474,8 +2474,8 @@
     "active": true
   },
   {
-    "id": "oxxo-089",
-    "name": "OXXO Chapalita",
+    "id": "mystore-089",
+    "name": "MyStore Chapalita",
     "address": "Av. Patria 890",
     "neighborhood": "Chapalita",
     "city": "Guadalajara",
@@ -2502,8 +2502,8 @@
     "active": true
   },
   {
-    "id": "oxxo-090",
-    "name": "OXXO Huentitán",
+    "id": "mystore-090",
+    "name": "MyStore Huentitán",
     "address": "Av. Alcalde 2340",
     "neighborhood": "Huentitán el Alto",
     "city": "Guadalajara",
@@ -2531,8 +2531,8 @@
     "active": true
   },
   {
-    "id": "oxxo-091",
-    "name": "OXXO Oblatos",
+    "id": "mystore-091",
+    "name": "MyStore Oblatos",
     "address": "Av. Circunvalación División del Norte 890",
     "neighborhood": "Oblatos",
     "city": "Guadalajara",
@@ -2558,8 +2558,8 @@
     "active": true
   },
   {
-    "id": "oxxo-092",
-    "name": "OXXO Analco",
+    "id": "mystore-092",
+    "name": "MyStore Analco",
     "address": "Av. Juárez 890",
     "neighborhood": "Analco",
     "city": "Guadalajara",
@@ -2586,8 +2586,8 @@
     "active": true
   },
   {
-    "id": "oxxo-093",
-    "name": "OXXO Santa Teresita",
+    "id": "mystore-093",
+    "name": "MyStore Santa Teresita",
     "address": "Av. Guadalupe 560",
     "neighborhood": "Santa Teresita",
     "city": "Guadalajara",
@@ -2614,8 +2614,8 @@
     "active": true
   },
   {
-    "id": "oxxo-094",
-    "name": "OXXO San Juan de Dios",
+    "id": "mystore-094",
+    "name": "MyStore San Juan de Dios",
     "address": "Dionisio Rodríguez 45",
     "neighborhood": "San Juan de Dios",
     "city": "Guadalajara",
@@ -2642,8 +2642,8 @@
     "active": true
   },
   {
-    "id": "oxxo-095",
-    "name": "OXXO Tetlán",
+    "id": "mystore-095",
+    "name": "MyStore Tetlán",
     "address": "Av. López Mateos Norte 890",
     "neighborhood": "Tetlán",
     "city": "Guadalajara",
@@ -2669,8 +2669,8 @@
     "active": true
   },
   {
-    "id": "oxxo-096",
-    "name": "OXXO Ciudad Granja",
+    "id": "mystore-096",
+    "name": "MyStore Ciudad Granja",
     "address": "Av. La Paz 2340",
     "neighborhood": "Ciudad Granja",
     "city": "Zapopan",
@@ -2698,8 +2698,8 @@
     "active": true
   },
   {
-    "id": "oxxo-097",
-    "name": "OXXO La Estancia",
+    "id": "mystore-097",
+    "name": "MyStore La Estancia",
     "address": "Av. Vallarta 6100",
     "neighborhood": "La Estancia",
     "city": "Zapopan",
@@ -2726,8 +2726,8 @@
     "active": true
   },
   {
-    "id": "oxxo-098",
-    "name": "OXXO Lomas de Zapopan",
+    "id": "mystore-098",
+    "name": "MyStore Lomas de Zapopan",
     "address": "Av. Aviación 1450",
     "neighborhood": "Lomas de Zapopan",
     "city": "Zapopan",
@@ -2754,8 +2754,8 @@
     "active": true
   },
   {
-    "id": "oxxo-099",
-    "name": "OXXO Puerto Vallarta Centro",
+    "id": "mystore-099",
+    "name": "MyStore Puerto Vallarta Centro",
     "address": "Insurgentes 100",
     "neighborhood": "Centro",
     "city": "Puerto Vallarta",
@@ -2783,8 +2783,8 @@
     "active": true
   },
   {
-    "id": "oxxo-100",
-    "name": "OXXO Puerto Vallarta Zona Hotelera",
+    "id": "mystore-100",
+    "name": "MyStore Puerto Vallarta Zona Hotelera",
     "address": "Blvd. Francisco Medina Ascencio 2900",
     "neighborhood": "Las Glorias",
     "city": "Puerto Vallarta",
@@ -2811,8 +2811,8 @@
     "active": true
   },
   {
-    "id": "oxxo-101",
-    "name": "OXXO Lagos de Moreno",
+    "id": "mystore-101",
+    "name": "MyStore Lagos de Moreno",
     "address": "Av. López Mateos 234",
     "neighborhood": "Centro",
     "city": "Lagos de Moreno",
@@ -2839,8 +2839,8 @@
     "active": true
   },
   {
-    "id": "oxxo-102",
-    "name": "OXXO Tepatitlán",
+    "id": "mystore-102",
+    "name": "MyStore Tepatitlán",
     "address": "Av. Degollado 234",
     "neighborhood": "Centro",
     "city": "Tepatitlán de Morelos",
@@ -2867,8 +2867,8 @@
     "active": true
   },
   {
-    "id": "oxxo-103",
-    "name": "OXXO El Salto",
+    "id": "mystore-103",
+    "name": "MyStore El Salto",
     "address": "Av. Constitución 120",
     "neighborhood": "Centro",
     "city": "El Salto",
@@ -2895,8 +2895,8 @@
     "active": true
   },
   {
-    "id": "oxxo-104",
-    "name": "OXXO Tlajomulco 2",
+    "id": "mystore-104",
+    "name": "MyStore Tlajomulco 2",
     "address": "Av. López Mateos Sur 8900",
     "neighborhood": "Santa Cruz del Valle",
     "city": "Tlajomulco de Zúñiga",
@@ -2923,8 +2923,8 @@
     "active": true
   },
   {
-    "id": "oxxo-105",
-    "name": "OXXO Chapultepec GDL",
+    "id": "mystore-105",
+    "name": "MyStore Chapultepec GDL",
     "address": "Av. Chapultepec Norte 140",
     "neighborhood": "Chapultepec Norte",
     "city": "Guadalajara",
@@ -2952,8 +2952,8 @@
     "active": true
   },
   {
-    "id": "oxxo-106",
-    "name": "OXXO Tlaquepaque 2",
+    "id": "mystore-106",
+    "name": "MyStore Tlaquepaque 2",
     "address": "Av. Niños Héroes 890",
     "neighborhood": "Las Fuentes",
     "city": "Tlaquepaque",
@@ -2979,8 +2979,8 @@
     "active": true
   },
   {
-    "id": "oxxo-107",
-    "name": "OXXO Tonalá 2",
+    "id": "mystore-107",
+    "name": "MyStore Tonalá 2",
     "address": "Av. Periférico 1200",
     "neighborhood": "Los Puestos",
     "city": "Tonalá",
@@ -3007,8 +3007,8 @@
     "active": true
   },
   {
-    "id": "oxxo-108",
-    "name": "OXXO Zapopan Norte",
+    "id": "mystore-108",
+    "name": "MyStore Zapopan Norte",
     "address": "Av. Patria 1890",
     "neighborhood": "Jardines de la Patria",
     "city": "Zapopan",
@@ -3036,8 +3036,8 @@
     "active": true
   },
   {
-    "id": "oxxo-109",
-    "name": "OXXO Jardines de la Cruz",
+    "id": "mystore-109",
+    "name": "MyStore Jardines de la Cruz",
     "address": "Av. 8 de Julio 890",
     "neighborhood": "Jardines de la Cruz",
     "city": "Guadalajara",
@@ -3064,8 +3064,8 @@
     "active": true
   },
   {
-    "id": "oxxo-110",
-    "name": "OXXO Ciudad Guzmán",
+    "id": "mystore-110",
+    "name": "MyStore Ciudad Guzmán",
     "address": "Av. Colón 450",
     "neighborhood": "Centro",
     "city": "Ciudad Guzmán",
@@ -3092,8 +3092,8 @@
     "active": true
   },
   {
-    "id": "oxxo-111",
-    "name": "OXXO La Barca",
+    "id": "mystore-111",
+    "name": "MyStore La Barca",
     "address": "Av. Hidalgo 120",
     "neighborhood": "Centro",
     "city": "La Barca",
@@ -3119,8 +3119,8 @@
     "active": true
   },
   {
-    "id": "oxxo-112",
-    "name": "OXXO Arandas",
+    "id": "mystore-112",
+    "name": "MyStore Arandas",
     "address": "Av. Hidalgo 234",
     "neighborhood": "Centro",
     "city": "Arandas",
@@ -3147,8 +3147,8 @@
     "active": true
   },
   {
-    "id": "oxxo-113",
-    "name": "OXXO San Juan de los Lagos",
+    "id": "mystore-113",
+    "name": "MyStore San Juan de los Lagos",
     "address": "Av. Benito Juárez 120",
     "neighborhood": "Centro",
     "city": "San Juan de los Lagos",
@@ -3176,8 +3176,8 @@
     "active": true
   },
   {
-    "id": "oxxo-114",
-    "name": "OXXO Ocotlán",
+    "id": "mystore-114",
+    "name": "MyStore Ocotlán",
     "address": "Morelos 45",
     "neighborhood": "Centro",
     "city": "Ocotlán",
@@ -3203,8 +3203,8 @@
     "active": true
   },
   {
-    "id": "oxxo-115",
-    "name": "OXXO Colinas de la Normal",
+    "id": "mystore-115",
+    "name": "MyStore Colinas de la Normal",
     "address": "Av. Patria 345",
     "neighborhood": "Colinas de la Normal",
     "city": "Guadalajara",
@@ -3231,8 +3231,8 @@
     "active": true
   },
   {
-    "id": "oxxo-116",
-    "name": "OXXO San Juan de Ocotán",
+    "id": "mystore-116",
+    "name": "MyStore San Juan de Ocotán",
     "address": "Av. Aviación 3450",
     "neighborhood": "San Juan de Ocotán",
     "city": "Zapopan",
@@ -3259,8 +3259,8 @@
     "active": true
   },
   {
-    "id": "oxxo-117",
-    "name": "OXXO Jardines del Bosque",
+    "id": "mystore-117",
+    "name": "MyStore Jardines del Bosque",
     "address": "Av. Mariano Otero 890",
     "neighborhood": "Jardines del Bosque",
     "city": "Guadalajara",
@@ -3288,8 +3288,8 @@
     "active": true
   },
   {
-    "id": "oxxo-118",
-    "name": "OXXO Ameca",
+    "id": "mystore-118",
+    "name": "MyStore Ameca",
     "address": "Av. Morelos 234",
     "neighborhood": "Centro",
     "city": "Ameca",
@@ -3315,8 +3315,8 @@
     "active": true
   },
   {
-    "id": "oxxo-119",
-    "name": "OXXO Autlán",
+    "id": "mystore-119",
+    "name": "MyStore Autlán",
     "address": "Av. Independencia 120",
     "neighborhood": "Centro",
     "city": "Autlán de Navarro",
@@ -3343,8 +3343,8 @@
     "active": true
   },
   {
-    "id": "oxxo-120",
-    "name": "OXXO El Colli",
+    "id": "mystore-120",
+    "name": "MyStore El Colli",
     "address": "Av. Colli 890",
     "neighborhood": "El Colli Urbano",
     "city": "Zapopan",
@@ -3372,8 +3372,8 @@
     "active": true
   },
   {
-    "id": "oxxo-121",
-    "name": "OXXO Copilco",
+    "id": "mystore-121",
+    "name": "MyStore Copilco",
     "address": "Av. Copilco 340",
     "neighborhood": "Copilco el Alto",
     "city": "Ciudad de México",
@@ -3400,8 +3400,8 @@
     "active": true
   },
   {
-    "id": "oxxo-122",
-    "name": "OXXO Milpa Alta",
+    "id": "mystore-122",
+    "name": "MyStore Milpa Alta",
     "address": "Constitución 5 Ote",
     "neighborhood": "Villa Milpa Alta",
     "city": "Ciudad de México",
@@ -3424,6 +3424,37 @@
       "Recarga de celular"
     ],
     "isOpen24h": false,
+    "active": true
+  },
+  {
+    "id": "mystore-123",
+    "name": "Oxxo Cumbres 3",
+    "address": "Avenida Paseo de los Leones 2999",
+    "neighborhood": "Cumbres 6o. Sector Sección a",
+    "city": "Monterrey",
+    "state": "Nuevo León",
+    "zipCode": "64610",
+    "phone": "",
+    "lat": 25.72333780539857,
+    "lng": -100.39363391496542,
+    "hours": {
+      "monday": "00:00 - 23:59",
+      "tuesday": "00:00 - 23:59",
+      "wednesday": "00:00 - 23:59",
+      "thursday": "00:00 - 23:59",
+      "friday": "00:00 - 23:59",
+      "saturday": "00:00 - 23:59",
+      "sunday": "00:00 - 23:59"
+    },
+    "services": [
+      "ATM",
+      "Pago de servicios",
+      "Recarga de celular",
+      "Envío de dinero",
+      "Impresiones",
+      "Recibo de paquetes"
+    ],
+    "isOpen24h": true,
     "active": true
   }
 ]
