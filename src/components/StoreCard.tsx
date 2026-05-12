@@ -41,7 +41,7 @@ export default function StoreCard({ store, isSelected, onClick, index = 0 }: Sto
       {/* Logo tile */}
       <div className={`flex-shrink-0 w-14 h-14 rounded-xl overflow-hidden flex items-center justify-center
         ${isSelected ? 'bg-oxxo-red/8' : 'bg-[var(--c-surface-2)]'}`}>
-        <Image src="/oxxo-logo.png" alt="OXXO" width={48} height={20} style={{ objectFit: 'contain' }} />
+        <Image src="/store-logo.svg" alt="Store" width={48} height={20} style={{ objectFit: 'contain' }} />
       </div>
 
       {/* Info */}

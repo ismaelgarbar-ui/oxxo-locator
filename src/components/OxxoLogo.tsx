@@ -24,7 +24,7 @@ export default function OxxoLogo({ size = 'md', variant = 'full', className = ''
         className={`flex items-center justify-center rounded-xl overflow-hidden flex-shrink-0 ${className}`}
         style={{ width: s, height: s }}
       >
-        <Image src="/oxxo-logo.png" alt="OXXO" width={s} height={s}
+        <Image src="/store-logo.svg" alt="Store" width={s} height={s}
           style={{ objectFit: 'contain', width: s, height: s }} priority />
       </div>
     );
@@ -33,8 +33,8 @@ export default function OxxoLogo({ size = 'md', variant = 'full', className = ''
   const { w, h } = SIZES[size];
   return (
     <Image
-      src="/oxxo-logo.png"
-      alt="OXXO"
+      src="/store-logo.svg"
+      alt="Store"
       width={w}
       height={h}
       className={className}

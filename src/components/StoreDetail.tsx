@@ -72,7 +72,7 @@ export default function StoreDetail({ store, onClose }: StoreDetailProps) {
         </div>
 
         <div className="px-6 pt-6 pb-5">
-          <Image src="/oxxo-logo.png" alt="OXXO" width={76} height={32} style={{ objectFit: 'contain' }} className="mb-2" />
+          <Image src="/store-logo.svg" alt="Store" width={76} height={32} style={{ objectFit: 'contain' }} className="mb-2" />
           <h2 className="font-extrabold text-xl leading-tight text-[var(--c-text)]">{store.name}</h2>
           
           <div className="flex items-center justify-between mt-3 gap-4">

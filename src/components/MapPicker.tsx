@@ -94,7 +94,7 @@ export default function MapPicker({ onPick, initialLat, initialLng }: MapPickerP
           position: { lat: initialLat, lng: initialLng },
           map,
           icon: {
-            url: '/oxxo-logo.png',
+            url: '/store-logo.svg',
             scaledSize: new google.maps.Size(40, 17),
             anchor: new google.maps.Point(20, 17),
           },
@@ -116,7 +116,7 @@ export default function MapPicker({ onPick, initialLat, initialLng }: MapPickerP
             position: { lat, lng },
             map,
             icon: {
-              url: '/oxxo-logo.png',
+              url: '/store-logo.svg',
               scaledSize: new google.maps.Size(48, 20),
               anchor: new google.maps.Point(24, 20),
             },

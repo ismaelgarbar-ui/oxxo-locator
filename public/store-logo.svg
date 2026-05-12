@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" fill="none">
+  <!-- Background pill -->
+  <rect width="120" height="48" rx="8" fill="#E63946"/>
+  <!-- Store icon (simple building) -->
+  <rect x="10" y="22" width="20" height="18" rx="1" fill="white"/>
+  <rect x="16" y="30" width="8" height="10" rx="1" fill="#E63946"/>
+  <polygon points="7,22 30,22 20,12" fill="white"/>
+  <!-- Text: STORE -->
+  <text x="38" y="33" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="18" fill="white" letter-spacing="1">STORE</text>
+</svg>

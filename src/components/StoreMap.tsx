@@ -13,15 +13,15 @@ interface StoreMapProps {
 
 const CDMX_CENTER = { lat: 19.4326, lng: -99.1332 };
 
-// Custom Marker settings using the OXXO Logo
+// Custom Marker settings using the generic store logo
 const MARKER_ICON = {
-  url: '/oxxo-logo.png',
-  scaledSize: { width: 42, height: 18 } as any, // Adjusted for logo aspect ratio
+  url: '/store-logo.svg',
+  scaledSize: { width: 42, height: 18 } as any,
   anchor: { x: 21, y: 18 } as any,
 };
 
 const SELECTED_MARKER_ICON = {
-  url: '/oxxo-logo.png',
+  url: '/store-logo.svg',
   scaledSize: { width: 56, height: 24 } as any,
   anchor: { x: 28, y: 24 } as any,
 };
