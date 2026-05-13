@@ -143,8 +143,9 @@ body {
   background: rgba(24,24,24,0.88);
 }
 
-/* Smooth color transitions — scoped to interactive and themed elements only */
-button, a, input, [data-themed] {
+/* Smooth color transitions — scoped to buttons and inputs only */
+button, input {
   transition-property: background-color, border-color, color;
   transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

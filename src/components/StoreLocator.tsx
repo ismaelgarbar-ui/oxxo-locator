@@ -304,7 +304,7 @@ export default function StoreLocator() {
             style={{
               background: 'rgba(245,158,11,0.08)',
               borderColor: 'rgba(245,158,11,0.3)',
-              color: '#92400e',
+              color: 'var(--c-text)',
             }}
           >
             <AlertCircle className="w-4 h-4 flex-shrink-0 text-amber-500" />

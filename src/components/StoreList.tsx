@@ -70,7 +70,7 @@ export default function StoreList({
             className={`flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full
                         text-xs font-semibold border whitespace-nowrap transition-all duration-200`}
             style={activeFilter === f.key
-              ? { background: 'var(--c-text)', color: 'var(--c-surface)', borderColor: 'var(--c-text)' }
+              ? { background: '#EE1C25', color: '#ffffff', borderColor: '#EE1C25' }
               : { background: 'var(--c-surface)', color: 'var(--c-text-muted)', borderColor: 'var(--c-border)' }
             }
           >

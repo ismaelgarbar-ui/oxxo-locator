@@ -30,12 +30,12 @@ const IconNavBtn = ({ onClick, src, label }: {
         <Image src={src} alt={label} fill className="object-contain" />
       </div>
     </div>
-    <span className="text-[10px] font-bold uppercase tracking-widest text-[var(--c-text-subtle)]">{label}</span>
+    <span className="text-[11px] font-semibold text-[var(--c-text-muted)]">{label}</span>
   </motion.button>
 );
 
 const SectionLabel = ({ children }: { children: React.ReactNode }) => (
-  <p className="text-[11px] font-black uppercase tracking-[0.08em] text-[var(--c-text-subtle)]">{children}</p>
+  <p className="text-[11px] font-bold uppercase tracking-[0.06em] text-[var(--c-text-subtle)]">{children}</p>
 );
 
 export default function StoreDetail({ store, onClose }: StoreDetailProps) {
@@ -58,10 +58,10 @@ export default function StoreDetail({ store, onClose }: StoreDetailProps) {
       {/* ── Fixed Header ── */}
       <div className="relative flex-shrink-0 border-b border-[var(--c-border)] bg-[var(--c-surface)] z-20">
         <div className="absolute top-4 right-4 flex gap-2">
-          <button onClick={handleShare} className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--c-border)] bg-[var(--c-surface)] active:bg-[var(--c-surface-2)]">
+          <button onClick={handleShare} aria-label="Compartir sucursal" className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--c-border)] bg-[var(--c-surface)] active:bg-[var(--c-surface-2)]">
             <Share2 className="w-4 h-4 text-[var(--c-text-muted)]" />
           </button>
-          <button onClick={onClose} className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--c-border)] bg-[var(--c-surface)] active:bg-[var(--c-surface-2)]">
+          <button onClick={onClose} aria-label="Cerrar detalle" className="w-9 h-9 rounded-full flex items-center justify-center border border-[var(--c-border)] bg-[var(--c-surface)] active:bg-[var(--c-surface-2)]">
             <X className="w-4 h-4 text-[var(--c-text-muted)]" />
           </button>
         </div>
@@ -124,7 +124,7 @@ export default function StoreDetail({ store, onClose }: StoreDetailProps) {
               </div>
               <div className="min-w-0">
                 <SectionLabel>Comunícate</SectionLabel>
-                <p className="text-sm font-bold text-blue-500 tracking-tight mt-0.5">{store.phone}</p>
+                <p className="text-sm font-bold text-[var(--c-text)] tracking-tight mt-0.5">{store.phone}</p>
               </div>
             </a>
           )}

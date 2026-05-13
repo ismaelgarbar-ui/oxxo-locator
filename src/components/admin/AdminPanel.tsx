@@ -164,7 +164,7 @@ export default function AdminPanel() {
           <motion.button
             whileTap={{ scale: 0.95 }}
             onClick={() => setEditingStore(null)}
-            className="flex items-center justify-center w-11 h-11 bg-oxxo-red text-white rounded-2xl shadow-lg shadow-oxxo-red/20"
+            className="flex items-center justify-center w-11 h-11 bg-oxxo-red text-white rounded-full shadow-lg shadow-oxxo-red/20"
           >
             <Plus className="w-5 h-5" />
           </motion.button>
@@ -177,7 +177,7 @@ export default function AdminPanel() {
               onClick={() => setFilter(f)}
               className={`whitespace-nowrap px-4 py-1.5 rounded-full text-xs font-bold border transition-all ${
                 filter === f
-                  ? 'bg-oxxo-dark text-white border-oxxo-dark dark:bg-white dark:text-black dark:border-white'
+                  ? 'border-[var(--c-text)] bg-[var(--c-text)] text-[var(--c-surface)]'
                   : 'bg-[var(--c-surface)] text-[var(--c-text-muted)] border-[var(--c-border)]'
               }`}
             >
@@ -255,7 +255,7 @@ export default function AdminPanel() {
                             {store.services.map((s) => (
                               <span
                                 key={s}
-                                className="text-[9px] font-bold bg-[var(--c-surface-2)] text-[var(--c-text-muted)] px-1.5 py-0.5 rounded-md border border-[var(--c-border)] uppercase tracking-tight"
+                                className="text-[11px] font-medium bg-[var(--c-surface-2)] text-[var(--c-text-muted)] px-2 py-0.5 rounded-full border border-[var(--c-border)]"
                               >
                                 {s}
                               </span>
@@ -342,7 +342,7 @@ export default function AdminPanel() {
             initial={{ opacity: 0, y: 20, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
-            className="absolute bottom-10 left-6 right-6 bg-oxxo-dark text-white text-xs font-bold px-5 py-3.5 rounded-2xl shadow-2xl flex items-center justify-center gap-2 z-[60] dark:bg-white dark:text-black"
+            className="absolute bottom-10 left-6 right-6 bg-[var(--c-text)] text-[var(--c-surface)] text-xs font-bold px-5 py-3.5 rounded-2xl shadow-2xl flex items-center justify-center gap-2 z-[60]"
           >
             <CheckCircle2 className="w-3.5 h-3.5" />
             {toast}
