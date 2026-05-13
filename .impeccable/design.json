@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-13T00:00:00Z",
+  "title": "Design System: OXXO Store Locator",
+  "extensions": {
+    "colorMeta": {
+      "brand-red":            { "role": "primary",   "displayName": "OXXO Signal Red",       "canonical": "oklch(44% 0.22 25)",    "tonalRamp": ["oklch(20% 0.12 25)", "oklch(28% 0.16 25)", "oklch(34% 0.19 25)", "oklch(40% 0.21 25)", "oklch(44% 0.22 25)", "oklch(58% 0.18 25)", "oklch(72% 0.13 25)", "oklch(88% 0.06 25)"] },
+      "brand-red-deep":       { "role": "primary",   "displayName": "Deep Confirmation Red", "canonical": "oklch(37% 0.20 25)",    "tonalRamp": ["oklch(16% 0.10 25)", "oklch(24% 0.14 25)", "oklch(30% 0.17 25)", "oklch(37% 0.20 25)", "oklch(48% 0.18 25)", "oklch(60% 0.14 25)", "oklch(74% 0.09 25)", "oklch(88% 0.04 25)"] },
+      "brand-yellow":         { "role": "secondary", "displayName": "Amber Warmth",          "canonical": "oklch(72% 0.17 75)",    "tonalRamp": ["oklch(30% 0.12 75)", "oklch(42% 0.14 75)", "oklch(52% 0.16 75)", "oklch(62% 0.17 75)", "oklch(72% 0.17 75)", "oklch(82% 0.13 75)", "oklch(89% 0.09 75)", "oklch(95% 0.04 75)"] },
+      "off-white":            { "role": "neutral",   "displayName": "Quiet Canvas",          "canonical": "oklch(97% 0.003 60)",   "tonalRamp": ["oklch(15% 0.005 60)", "oklch(28% 0.005 60)", "oklch(42% 0.005 60)", "oklch(56% 0.005 60)", "oklch(70% 0.004 60)", "oklch(82% 0.003 60)", "oklch(91% 0.003 60)", "oklch(97% 0.003 60)"] },
+      "surface-white":        { "role": "neutral",   "displayName": "Surface White",         "canonical": "oklch(100% 0.001 60)",  "tonalRamp": ["oklch(18% 0.001 60)", "oklch(32% 0.001 60)", "oklch(46% 0.001 60)", "oklch(60% 0.001 60)", "oklch(74% 0.001 60)", "oklch(85% 0.001 60)", "oklch(93% 0.001 60)", "oklch(100% 0.001 60)"] },
+      "text-primary":         { "role": "neutral",   "displayName": "Ink",                   "canonical": "oklch(18% 0.005 60)",   "tonalRamp": ["oklch(10% 0.005 60)", "oklch(18% 0.005 60)", "oklch(30% 0.004 60)", "oklch(44% 0.004 60)", "oklch(58% 0.003 60)", "oklch(72% 0.003 60)", "oklch(85% 0.002 60)", "oklch(95% 0.002 60)"] },
+      "text-muted":           { "role": "neutral",   "displayName": "Annotation",            "canonical": "oklch(50% 0.004 60)",   "tonalRamp": ["oklch(20% 0.004 60)", "oklch(30% 0.004 60)", "oklch(38% 0.004 60)", "oklch(50% 0.004 60)", "oklch(62% 0.003 60)", "oklch(74% 0.003 60)", "oklch(86% 0.002 60)", "oklch(95% 0.002 60)"] },
+      "dark-bg":              { "role": "neutral",   "displayName": "Deep Night",            "canonical": "oklch(9% 0.004 60)",    "tonalRamp": ["oklch(9% 0.004 60)", "oklch(14% 0.004 60)", "oklch(20% 0.004 60)", "oklch(30% 0.004 60)", "oklch(44% 0.004 60)", "oklch(58% 0.003 60)", "oklch(72% 0.003 60)", "oklch(88% 0.002 60)"] },
+      "status-open":          { "role": "tertiary",  "displayName": "Open Emerald",          "canonical": "oklch(52% 0.16 155)",   "tonalRamp": ["oklch(22% 0.10 155)", "oklch(32% 0.13 155)", "oklch(40% 0.15 155)", "oklch(52% 0.16 155)", "oklch(64% 0.14 155)", "oklch(76% 0.11 155)", "oklch(86% 0.07 155)", "oklch(94% 0.03 155)"] },
+      "status-atm":           { "role": "tertiary",  "displayName": "ATM Blue",              "canonical": "oklch(46% 0.18 255)",   "tonalRamp": ["oklch(20% 0.12 255)", "oklch(30% 0.15 255)", "oklch(38% 0.17 255)", "oklch(46% 0.18 255)", "oklch(58% 0.16 255)", "oklch(70% 0.12 255)", "oklch(82% 0.08 255)", "oklch(93% 0.03 255)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Store names in detail sheets, primary hero moments. Rare — only the single most important element on screen." },
+      "headline": { "displayName": "Headline", "purpose": "Section headers, panel titles, admin page headings." },
+      "title":    { "displayName": "Title",    "purpose": "Card store names, list item primaries, form field labels." },
+      "body":     { "displayName": "Body",     "purpose": "Address details, status copy, description text. Primary reading weight. Max 65ch line length." },
+      "label":    { "displayName": "Label",    "purpose": "Badge text, distance chips, metadata tags, filter chip labels." }
+    },
+    "shadows": [
+      { "name": "card-resting",  "value": "0 1px 3px rgba(0,0,0,0.10), 0 4px 12px rgba(0,0,0,0.10)",  "purpose": "Default card elevation. Signals containment without lifting the card." },
+      { "name": "card-elevated", "value": "0 4px 8px rgba(0,0,0,0.10), 0 12px 32px rgba(0,0,0,0.18)", "purpose": "Hover and selected card state. Promotes the card." },
+      { "name": "sheet",         "value": "0 -8px 40px rgba(0,0,0,0.18)",                              "purpose": "Bottom sheet upward shadow. Separates the sheet from the map layer behind it." },
+      { "name": "fab-red-tint",  "value": "0 4px 16px rgba(238,28,37,0.20)",                           "purpose": "Floating action button shadow. Red tint ties the elevation to the brand action color." }
+    ],
+    "motion": [
+      { "name": "ease-spring",   "value": "cubic-bezier(0.22, 1, 0.36, 1)",     "purpose": "Primary easing for entries and sheet slides. Spring-like deceleration without bounce." },
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)",       "purpose": "State transitions (hover, focus, color changes)." },
+      { "name": "fade-up",       "value": "opacity 0 → 1, translateY 16px → 0, 350ms ease-spring", "purpose": "List item and panel entry animation." },
+      { "name": "fade-in",       "value": "opacity 0 → 1, 250ms ease-standard",                    "purpose": "Subtle content reveal (badges, icons)." },
+      { "name": "scale-in",      "value": "scale 0.92 → 1, opacity 0 → 1, 300ms ease-spring",      "purpose": "Map marker and modal entry." },
+      { "name": "pin-drop",      "value": "scale + translateY, 500ms ease-spring, 1 bounce",        "purpose": "Map pin placement. Single subtle overshoot (≤5%)." },
+      { "name": "stagger-list",  "value": "50ms delay increment per child, max 300ms",              "purpose": "Store card list renders. Communicates structure without demanding attention." }
+    ],
+    "breakpoints": [
+      { "name": "mobile-only", "value": "max-width: 639px", "note": "Primary target. All customer-facing layouts are designed mobile-first." },
+      { "name": "tablet",      "value": "640px",             "note": "Admin panel secondary target. Store form and management panel gain more horizontal space." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action button. Used for locate, primary admin actions. Pill-shaped, brand red.",
+      "html": "<button class=\"ds-btn-primary\">Find Nearby</button>",
+      "css": ".ds-btn-primary { background: #EE1C25; color: #ffffff; padding: 10px 20px; border-radius: 9999px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.875rem; font-weight: 600; line-height: 1.4; border: none; cursor: pointer; transition: background 0.2s cubic-bezier(0.4,0,0.2,1), transform 0.2s cubic-bezier(0.4,0,0.2,1); display: inline-flex; align-items: center; gap: 6px; } .ds-btn-primary:hover { background: #C41019; transform: translateY(-2px); } .ds-btn-primary:active { transform: scale(0.95); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(238,28,37,0.25); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action button. Soft background, neutral text. Used for Cancel, secondary nav.",
+      "html": "<button class=\"ds-btn-ghost\">Cancel</button>",
+      "css": ".ds-btn-ghost { background: #F2F2F2; color: #1A1A1A; padding: 10px 20px; border-radius: 9999px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.875rem; font-weight: 600; line-height: 1.4; border: none; cursor: pointer; transition: background 0.2s cubic-bezier(0.4,0,0.2,1), transform 0.2s cubic-bezier(0.4,0,0.2,1); } .ds-btn-ghost:hover { background: #E2E2E2; transform: translateY(-1px); } .ds-btn-ghost:active { transform: scale(0.95); } .ds-btn-ghost:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(238,28,37,0.20); }"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "36px circular icon button. Header actions: dark mode, close, back, admin link.",
+      "html": "<button class=\"ds-btn-icon\" aria-label=\"Toggle dark mode\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"/></svg></button>",
+      "css": ".ds-btn-icon { width: 36px; height: 36px; border-radius: 9999px; background: #ffffff; color: #717171; border: 1px solid #E2E2E2; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.15s, color 0.15s, transform 0.15s; flex-shrink: 0; } .ds-btn-icon:hover { background: #F2F2F2; color: #1A1A1A; transform: translateY(-1px); } .ds-btn-icon:active { transform: scale(0.93); } .ds-btn-icon:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(238,28,37,0.20); }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Resting state filter chip. Used in StoreList for category filtering (All, Open Now, 24h, ATM).",
+      "html": "<button class=\"ds-chip\">Open Now</button>",
+      "css": ".ds-chip { background: #F2F2F2; color: #717171; padding: 6px 14px; border-radius: 9999px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.01em; line-height: 1.4; border: none; cursor: pointer; transition: background 0.15s, color 0.15s, transform 0.15s; white-space: nowrap; } .ds-chip:hover { background: #E2E2E2; } .ds-chip:active { transform: scale(0.96); }"
+    },
+    {
+      "name": "Filter Chip Active",
+      "kind": "chip",
+      "refersTo": "filter-chip-active",
+      "description": "Active filter chip. Brand red background, white text. Only one active per group.",
+      "html": "<button class=\"ds-chip-active\">ATM</button>",
+      "css": ".ds-chip-active { background: #EE1C25; color: #ffffff; padding: 6px 14px; border-radius: 9999px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.01em; line-height: 1.4; border: none; cursor: pointer; transition: background 0.15s, transform 0.15s; white-space: nowrap; } .ds-chip-active:hover { background: #C41019; } .ds-chip-active:active { transform: scale(0.96); }"
+    },
+    {
+      "name": "Store Card",
+      "kind": "card",
+      "refersTo": "store-card",
+      "description": "Primary list item for store discovery. Shows name, distance, location, status, and service badges.",
+      "html": "<div class=\"ds-store-card\"><div class=\"ds-store-card__header\"><div class=\"ds-store-card__logo\"><svg width=\"48\" height=\"20\" viewBox=\"0 0 76 32\" fill=\"none\"><rect width=\"76\" height=\"32\" rx=\"4\" fill=\"#EE1C25\"/><text x=\"38\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" font-weight=\"900\" fill=\"white\">OXXO</text></svg></div><div class=\"ds-store-card__meta\"><div class=\"ds-store-card__name\">OXXO Reforma 24</div><div class=\"ds-store-card__location\">Cuauhtémoc · CDMX</div></div><span class=\"ds-store-card__distance\">350m</span></div><div class=\"ds-store-card__badges\"><span class=\"ds-badge ds-badge--open\">Open</span><span class=\"ds-badge ds-badge--atm\">ATM</span></div></div>",
+      "css": ".ds-store-card { background: #ffffff; border-radius: 16px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.10), 0 4px 12px rgba(0,0,0,0.10); cursor: pointer; transition: box-shadow 0.2s cubic-bezier(0.4,0,0.2,1), transform 0.2s cubic-bezier(0.4,0,0.2,1); border: 1.5px solid transparent; } .ds-store-card:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.10), 0 12px 32px rgba(0,0,0,0.18); transform: translateY(-2px); } .ds-store-card__header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; } .ds-store-card__logo { flex-shrink: 0; } .ds-store-card__meta { flex: 1; min-width: 0; } .ds-store-card__name { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 1rem; font-weight: 600; color: #1A1A1A; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-store-card__location { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.75rem; font-weight: 500; color: #717171; } .ds-store-card__distance { font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.75rem; font-weight: 600; color: #717171; white-space: nowrap; } .ds-store-card__badges { display: flex; gap: 6px; flex-wrap: wrap; } .ds-badge { padding: 3px 10px; border-radius: 9999px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.75rem; font-weight: 500; line-height: 1.4; } .ds-badge--open { background: rgba(5,150,105,0.08); color: #059669; } .ds-badge--atm { background: rgba(37,99,235,0.08); color: #2563EB; } .ds-badge--payments { background: rgba(217,119,6,0.08); color: #D97706; }"
+    },
+    {
+      "name": "Store Card Selected",
+      "kind": "card",
+      "refersTo": "store-card-selected",
+      "description": "Selected state of store card. Full red border + elevated shadow + red store name.",
+      "html": "<div class=\"ds-store-card ds-store-card--selected\"><div class=\"ds-store-card__header\"><div class=\"ds-store-card__logo\"><svg width=\"48\" height=\"20\" viewBox=\"0 0 76 32\" fill=\"none\"><rect width=\"76\" height=\"32\" rx=\"4\" fill=\"#EE1C25\"/><text x=\"38\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\" font-weight=\"900\" fill=\"white\">OXXO</text></svg></div><div class=\"ds-store-card__meta\"><div class=\"ds-store-card__name ds-store-card__name--selected\">OXXO Reforma 24</div><div class=\"ds-store-card__location\">Cuauhtémoc · CDMX</div></div><span class=\"ds-store-card__distance\">350m</span></div><div class=\"ds-store-card__badges\"><span class=\"ds-badge ds-badge--open\">Open</span></div></div>",
+      "css": ".ds-store-card--selected { border-color: #EE1C25; box-shadow: 0 4px 8px rgba(0,0,0,0.10), 0 12px 32px rgba(0,0,0,0.18); } .ds-store-card__name--selected { color: #EE1C25; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Store search field in StoreList view. Soft background, red focus ring.",
+      "html": "<div class=\"ds-input-wrapper\"><svg class=\"ds-input-icon\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.35-4.35\"/></svg><input class=\"ds-input-search\" type=\"text\" placeholder=\"Search stores...\" /></div>",
+      "css": ".ds-input-wrapper { position: relative; display: flex; align-items: center; } .ds-input-icon { position: absolute; left: 12px; color: #717171; pointer-events: none; transition: color 0.15s; flex-shrink: 0; } .ds-input-search { width: 100%; background: #F2F2F2; border: 1px solid #E2E2E2; border-radius: 12px; padding: 10px 14px 10px 38px; font-family: 'Plus Jakarta Sans', Arial, sans-serif; font-size: 0.875rem; font-weight: 400; color: #1A1A1A; line-height: 1.5; outline: none; transition: border-color 0.15s, box-shadow 0.15s; } .ds-input-search::placeholder { color: #ADADAD; } .ds-input-search:focus { border-color: #EE1C25; box-shadow: 0 0 0 3px rgba(238,28,37,0.15); } .ds-input-search:focus + .ds-input-icon, .ds-input-wrapper:focus-within .ds-input-icon { color: #EE1C25; }"
+    },
+    {
+      "name": "Navigation Header",
+      "kind": "nav",
+      "refersTo": "button-icon",
+      "description": "App header with OXXO logo, locate button, dark mode toggle. Glass effect on scroll.",
+      "html": "<header class=\"ds-header\"><div class=\"ds-header__logo\"><svg width=\"76\" height=\"32\" viewBox=\"0 0 76 32\" fill=\"none\"><rect width=\"76\" height=\"32\" rx=\"4\" fill=\"#EE1C25\"/><text x=\"38\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18\" font-weight=\"900\" fill=\"white\">OXXO</text></svg></div><div class=\"ds-header__actions\"><button class=\"ds-btn-icon\" aria-label=\"Find my location\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 1v4M12 19v4M1 12h4M19 12h4\"/></svg></button><button class=\"ds-btn-icon\" aria-label=\"Switch to dark mode\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z\"/></svg></button></div></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; background: rgba(255,255,255,0.85); backdrop-filter: blur(12px) saturate(180%); -webkit-backdrop-filter: blur(12px) saturate(180%); border-bottom: 1px solid #E2E2E2; position: sticky; top: 0; z-index: 10; } .ds-header__actions { display: flex; gap: 8px; align-items: center; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Friendly Urban Guide",
+    "overview": "This system is built for the corner of a busy street, not a corporate lobby. The OXXO Store Locator answers one question faster than any other app: \"Is there an OXXO nearby, and can it help me right now?\" Every decision in this system flows from that moment: a person on a sidewalk, thumb on glass, 30 seconds to spare.\n\nThe personality is warm and direct. Brand confidence comes from speed and warmth, not from polish or grandeur. Plus Jakarta Sans brings a humanist quality that keeps the interface from feeling clinical. Motion is purposeful and physical: things enter from where they come from, exit toward where they go, and respond to touch with immediate, satisfying feedback.\n\nThis system explicitly rejects the sterile aesthetic of corporate retail locators, the badge-clutter logic of delivery apps, and the productivity-tool density of SaaS dashboards. It is a consumer app for a neighborhood brand.",
+    "keyCharacteristics": [
+      "Brand red used sparingly as a signal, not a wallpaper",
+      "Mobile-first layout with thumb-zone awareness throughout",
+      "Motion-forward interactions that feel physical and immediate",
+      "Dual-mode color system (light and dark) with consistent warmth in both",
+      "Typography hierarchy driven by weight contrast, not size alone"
+    ],
+    "rules": [
+      { "name": "The One Voice Rule",         "body": "The brand red appears on 10% or less of any given screen. One primary button, one active filter, one selected card state — not all three at once. Its scarcity is the message.", "section": "colors" },
+      { "name": "The Dark Mode Warmth Rule",  "body": "Dark mode neutrals are warm-dark, not cold-dark. #0D0D0D background and #181818 surfaces are slightly warm. Never use pure #000000.", "section": "colors" },
+      { "name": "The Weight-First Rule",      "body": "Hierarchy is established through weight contrast (400 to 600 to 700 to 800), not through size jumps. Use size escalation sparingly — it disrupts rhythm on mobile.", "section": "typography" },
+      { "name": "The State-Driven Elevation Rule", "body": "Surfaces are flat or minimal at rest. Shadow promotion happens only in response to state: hover, selection, floating. Don't add shadows to surfaces that don't need to be perceived as elevated.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use prefers-reduced-motion to disable or reduce Framer Motion animations for users who request it.",
+      "Do use the brand red exclusively for primary actions, active states, selected states, and focus rings.",
+      "Do size all tap targets to a minimum of 44x44px.",
+      "Do use full borders (all four sides) to indicate selection on cards and list items. Selection is a full border in brand red.",
+      "Do maintain the warmth rule in dark mode: use #0D0D0D background and #181818 surfaces — never #000000.",
+      "Do apply screen reader labels to every icon-only button.",
+      "Do use staggered entry animations when rendering a list of store cards."
+    ],
+    "donts": [
+      "Don't use a colored left-stripe border (border-left greater than 1px) on cards, list items, or callouts. This pattern is prohibited.",
+      "Don't use gradient text (background-clip: text with a gradient). Brand emphasis is achieved through weight and size.",
+      "Don't create a corporate retail locator aesthetic: no paginated results tables, no Enter ZIP code hero.",
+      "Don't replicate delivery app UI patterns: no identical card grids, no bottom navigation with 5 tabs, no badge overload.",
+      "Don't use glassmorphism as a default surface treatment. The glass class exists for the header on scroll and modal backdrops only.",
+      "Don't introduce sidebar navigation, data tables, or dense multi-column layouts on the customer-facing surface.",
+      "Don't use #000000 or #ffffff as literal values anywhere. Every neutral is tinted.",
+      "Don't add shadows to surfaces that are already elevated by color contrast or context."
+    ]
+  }
+}
