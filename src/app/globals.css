@@ -29,6 +29,7 @@
   --c-text:        #F0F0F0;
   --c-text-muted:  #A0A0A0;
   --c-text-subtle: #5A5A5A;
+  --c-yellow:      #D4900A;
   --c-shadow:      rgba(0,0,0,0.40);
   --c-shadow-lg:   rgba(0,0,0,0.60);
   --c-overlay:     rgba(0,0,0,0.70);
@@ -142,5 +143,8 @@ body {
   background: rgba(24,24,24,0.88);
 }
 
-/* Smooth color transitions */
-* { transition-property: background-color, border-color, color; transition-duration: 0.2s; }
+/* Smooth color transitions — scoped to interactive and themed elements only */
+button, a, input, [data-themed] {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.2s;
+}

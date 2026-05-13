@@ -296,7 +296,8 @@ export default function AdminPanel() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm flex items-end justify-center z-50 p-4"
+            className="absolute inset-0 backdrop-blur-sm flex items-end justify-center z-50 p-4"
+            style={{ background: 'var(--c-overlay)' }}
           >
             <motion.div 
               initial={{ y: 20, opacity: 0 }}

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { StoreWithDistance } from '@/types/store';
 import { formatDistance, isCurrentlyOpen } from '@/lib/geo';
+import { getServiceIcon } from '@/lib/services';
 import { MapPin, Clock, ChevronRight, Zap, CreditCard, Lightbulb } from 'lucide-react';
 import Image from 'next/image';
 
@@ -12,12 +13,6 @@ interface StoreCardProps {
   onClick: () => void;
   index?: number;
 }
-
-const SERVICE_ICONS: Record<string, React.ReactNode> = {
-  'ATM':                 <CreditCard className="w-2.5 h-2.5" />,
-  'Pago de servicios':   <Lightbulb className="w-2.5 h-2.5" />,
-  'Envío de dinero':     <ChevronRight className="w-2.5 h-2.5" />,
-};
 
 export default function StoreCard({ store, isSelected, onClick, index = 0 }: StoreCardProps) {
   const open = isCurrentlyOpen(store.hours, store.isOpen24h);
@@ -79,15 +74,21 @@ export default function StoreCard({ store, isSelected, onClick, index = 0 }: Sto
 
           {/* Service badges */}
           {store.services.includes('ATM') && (
-            <span className="flex items-center gap-0.5 text-xs px-1.5 py-0.5 rounded-full
+            <span className="flex items-center gap-0.5 text-[11px] px-1.5 py-0.5 rounded-full
                              bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400 font-medium">
               <CreditCard className="w-2.5 h-2.5" />ATM
             </span>
           )}
           {store.services.includes('Pago de servicios') && (
-            <span className="flex items-center gap-0.5 text-xs px-1.5 py-0.5 rounded-full
+            <span className="flex items-center gap-0.5 text-[11px] px-1.5 py-0.5 rounded-full
                              bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400 font-medium">
               <Lightbulb className="w-2.5 h-2.5" />Pagos
+            </span>
+          )}
+          {store.services.includes('Envío de dinero') && (
+            <span className="flex items-center gap-0.5 text-[11px] px-1.5 py-0.5 rounded-full
+                             bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400 font-medium">
+              {getServiceIcon('Envío de dinero', 'sm')}Envíos
             </span>
           )}
 

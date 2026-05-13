@@ -1,9 +1,10 @@
 'use client';
 
+import { RefObject } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { StoreWithDistance } from '@/types/store';
 import StoreCard from './StoreCard';
-import { Search, SlidersHorizontal, MapPin, Zap, CreditCard, Lightbulb, Clock } from 'lucide-react';
+import { Search, MapPin, Zap, CreditCard, Lightbulb, Clock, X } from 'lucide-react';
 
 type FilterKey = 'all' | '24h' | 'atm' | 'open' | 'payments';
 
@@ -16,6 +17,7 @@ interface StoreListProps {
   onFilterChange: (f: FilterKey) => void;
   onSelectStore: (store: StoreWithDistance) => void;
   userLocation: { lat: number; lng: number } | null;
+  searchInputRef?: RefObject<HTMLInputElement | null>;
 }
 
 const FILTERS: { key: FilterKey; label: string; icon: React.ReactNode }[] = [
@@ -29,7 +31,10 @@ const FILTERS: { key: FilterKey; label: string; icon: React.ReactNode }[] = [
 export default function StoreList({
   stores, selectedStore, search, activeFilter,
   onSearchChange, onFilterChange, onSelectStore, userLocation,
+  searchInputRef,
 }: StoreListProps) {
+  const hasActiveQuery = search.trim().length > 0 || activeFilter !== 'all';
+
   return (
     <div className="flex flex-col h-full" style={{ background: 'var(--c-bg)' }}>
 
@@ -38,6 +43,7 @@ export default function StoreList({
         <div className="relative">
           <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4" style={{ color: 'var(--c-text-subtle)' }} />
           <input
+            ref={searchInputRef}
             type="search"
             placeholder="Ciudad, colonia o nombre…"
             value={search}
@@ -80,7 +86,6 @@ export default function StoreList({
           {stores.length} sucursal{stores.length !== 1 ? 'es' : ''}
           {userLocation ? ' · por cercanía' : ''}
         </p>
-        <SlidersHorizontal className="w-3.5 h-3.5" style={{ color: 'var(--c-text-subtle)' }} />
       </div>
 
       {/* List */}
@@ -100,8 +105,25 @@ export default function StoreList({
               </div>
               <div className="text-center">
                 <p className="font-bold text-sm" style={{ color: 'var(--c-text)' }}>Sin resultados</p>
-                <p className="text-xs mt-1" style={{ color: 'var(--c-text-muted)' }}>Prueba con otro término</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--c-text-muted)' }}>
+                  {hasActiveQuery ? 'No hay sucursales con ese filtro.' : 'Prueba con otro término.'}
+                </p>
               </div>
+              {hasActiveQuery && (
+                <motion.button
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => { onSearchChange(''); onFilterChange('all'); }}
+                  className="flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold border transition-colors"
+                  style={{
+                    borderColor: 'var(--c-border)',
+                    color: 'var(--c-text)',
+                    background: 'var(--c-surface)',
+                  }}
+                >
+                  <X className="w-3 h-3" />
+                  Quitar filtros
+                </motion.button>
+              )}
             </motion.div>
           ) : (
             stores.map((store, i) => (

@@ -11,7 +11,7 @@ import StoreDetail from './StoreDetail';
 import OxxoLogo from './OxxoLogo';
 import {
   Navigation, Map, List, Loader2, AlertCircle, X,
-  ChevronRight, Settings, Moon, Sun, MapPin, LocateFixed,
+  ChevronRight, Settings, Moon, Sun, MapPin, LocateFixed, Search,
 } from 'lucide-react';
 
 const StoreMap = dynamic(() => import('./StoreMap'), {
@@ -59,6 +59,7 @@ export default function StoreLocator() {
   const [geoStatus,     setGeoStatus]     = useState<GeoStatus>('idle');
   const [geoError,      setGeoError]      = useState('');
   const touchStartY   = useRef(0);
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const { dark, toggle: toggleDark } = useDarkMode();
 
   /* ── Fetch stores ── */
@@ -118,6 +119,14 @@ export default function StoreLocator() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loading]);
 
+  /* ── Manual search fallback when geo fails ── */
+  const handleSearchFallback = useCallback(() => {
+    setGeoError('');
+    setGeoStatus('idle');
+    setTab('list');
+    setTimeout(() => searchInputRef.current?.focus(), 150);
+  }, []);
+
   /* ── Store selection ── */
   const handleSelectStore = useCallback((store: StoreWithDistance) => {
     setSelectedStore(store);
@@ -138,6 +147,7 @@ export default function StoreLocator() {
 
   const filtered = applyFilter(stores, activeFilter, search);
   const nearest  = filtered[0];
+  const hasActiveQuery = search.trim().length > 0 || activeFilter !== 'all';
 
   /* ── Loading splash ── */
   if (loading) {
@@ -266,6 +276,9 @@ export default function StoreLocator() {
             >
               <Icon className="w-4 h-4" />
               {label}
+              {key === 'list' && hasActiveQuery && tab !== 'list' && (
+                <span className="w-1.5 h-1.5 rounded-full bg-oxxo-red absolute top-2.5 right-[calc(50%-18px)]" />
+              )}
               {tab === key && (
                 <motion.div
                   layoutId="tab-indicator"
@@ -296,7 +309,16 @@ export default function StoreLocator() {
           >
             <AlertCircle className="w-4 h-4 flex-shrink-0 text-amber-500" />
             <span className="flex-1">{geoError}</span>
-            {geoStatus === 'denied' && (
+            {geoStatus === 'denied' ? (
+              <motion.button
+                whileTap={{ scale: 0.93 }}
+                onClick={handleSearchFallback}
+                className="flex items-center gap-1 font-bold text-oxxo-red whitespace-nowrap"
+              >
+                <Search className="w-3 h-3" />
+                Buscar manualmente
+              </motion.button>
+            ) : (
               <motion.button
                 whileTap={{ scale: 0.93 }}
                 onClick={locate}
@@ -322,6 +344,37 @@ export default function StoreLocator() {
             userLocation={userLocation}
             onSelectStore={handleSelectStore}
           />
+
+          {/* Active filter chip on map */}
+          <AnimatePresence>
+            {hasActiveQuery && tab === 'map' && (
+              <motion.div
+                key="map-filter-chip"
+                initial={{ opacity: 0, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.2 }}
+                className="absolute top-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border z-10"
+                style={{
+                  background: 'var(--c-surface)',
+                  borderColor: 'var(--c-border)',
+                  color: 'var(--c-text)',
+                  boxShadow: '0 2px 8px var(--c-shadow)',
+                }}
+              >
+                <Search className="w-3 h-3 text-oxxo-red flex-shrink-0" />
+                <span className="max-w-[160px] truncate">
+                  {search.trim() || activeFilter}
+                </span>
+                <button
+                  onClick={() => { setSearch(''); setActiveFilter('all'); }}
+                  className="ml-1 opacity-60 hover:opacity-100 transition-opacity"
+                >
+                  <X className="w-3 h-3" />
+                </button>
+              </motion.div>
+            )}
+          </AnimatePresence>
 
           {/* Nearest store floating card */}
           <AnimatePresence>
@@ -387,6 +440,7 @@ export default function StoreLocator() {
                 onFilterChange={setActiveFilter}
                 onSelectStore={handleSelectStore}
                 userLocation={userLocation}
+                searchInputRef={searchInputRef}
               />
             </motion.div>
           )}
